@@ -5,17 +5,11 @@ using UnityEngine;
 public class Unit : MonoBehaviour
 {
     public UnitData unitData;
-    public UnitUI unitUI;
     public string unitName;
     public int maxHealth;
     public int currentHealth;
     public int damage;
-
-    public void setUnitData(UnitData unitData)
-    {
-        
-        this.unitData = unitData;
-    }
+    public int unitAmount;
 
     void Start()
     {
@@ -23,8 +17,8 @@ public class Unit : MonoBehaviour
         UpdateMyVariables();
         unitData.OnValueChanged += UpdateMyVariables;
 #endif
-
     }
+
 #if UNITY_EDITOR
     void UpdateMyVariables()
     {
@@ -34,4 +28,22 @@ public class Unit : MonoBehaviour
         unitName = unitData.unitName;
     }
 #endif
+
+    public void setUnitData(UnitData unitData)
+    {
+        this.unitData = unitData;
+    }
+
+    public void setMaxHealth(int maxHealth)
+    {
+
+    }
+    public void setCurrentHealth()
+    {
+        currentHealth = maxHealth;
+    }
+    public void setUnitAmount(int unitAmount)
+    {
+        this.unitAmount = unitAmount;
+    }
 }

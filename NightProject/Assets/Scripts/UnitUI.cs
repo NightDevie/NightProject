@@ -6,38 +6,41 @@ using UnityEngine.UI;
 public class UnitUI : MonoBehaviour
 {
     public Unit unit;
-    public static UnitUI unitUI;
 
     public Text unitText;
     public Text healthText;
     public Text damageText;
-    
+    public Text unitAmountText;
+
+    public int amount;
+
     // Start is called before the first frame update
     void Start()
     {
 #if UNITY_EDITOR
-        UpdateUI();
-        unit.unitData.OnValueChanged += UpdateUI;
+        editorUIUpdate();
+        unit.unitData.OnValueChanged += editorUIUpdate;
 #endif
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UIUpdateUnitHealth()
+    {
+
+    }
+
+    public void UIUpdateUnitAmount()
     {
         
     }
 
-    public void SetHealth(int health)
-    {
-        
-    }
 #if UNITY_EDITOR
-    public void UpdateUI()
+    public void editorUIUpdate()
     {
         unitText.text = unit.unitName.ToString();
         healthText.text = unit.maxHealth.ToString();
         damageText.text = unit.damage.ToString();
+        unitAmountText.text = unit.unitAmount.ToString();
     }
 #endif
 }
