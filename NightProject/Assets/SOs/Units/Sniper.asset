@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sniper
   m_EditorClassIdentifier: 
   unitName: Sniper
-  unitClass: 1
+  unitClass: 3
   maxHealth: 8
   damage: 6

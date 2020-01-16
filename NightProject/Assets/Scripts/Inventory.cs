@@ -5,7 +5,6 @@ using UnityEngine;
 //[CreateAssetMenu(fileName ="New Inventory", menuName ="Inventory")]
 public class Inventory : MonoBehaviour //: ScriptableObject
 {
-    public ScriptableObject item;
     public List<InventorySlot> Items = new List<InventorySlot>();
     public void AddItem(UnitData item, int amount)
     {
