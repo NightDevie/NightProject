@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Soldiers
   m_EditorClassIdentifier: 
   unitName: Soldiers
+  unitClass: 0
   maxHealth: 10
   damage: 4

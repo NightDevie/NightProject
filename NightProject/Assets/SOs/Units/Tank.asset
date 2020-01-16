@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Tank
   m_EditorClassIdentifier: 
   unitName: Tank
+  unitClass: 2
   maxHealth: 12
   damage: 5
