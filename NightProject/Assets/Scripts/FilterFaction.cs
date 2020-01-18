@@ -9,82 +9,42 @@ public class FilterFaction : MonoBehaviour
     public GameObject unitPrefab;
     public GameObject parentObject;
     
+    private UnitFaction unitFaction;
     private GameObject instantiatedPrefab;
-    private int n;
     
-    public Button[] buttons;
-    public string[] factionName;
+    public Button[] factionButtons;
+    public UnitFaction[] unitFactions;
 
     void Start()
     {
-        for (int i = 0; i < buttons.Length; i++)
+        for (int i = 0; i < factionButtons.Length; i++)
         {
             int index = i;
-            Debug.Log(i);
-            buttons[i].onClick.AddListener(() => SpawnFactionCards(factionName[index]));
+            factionButtons[i].onClick.AddListener(() => SpawnFactionCards(unitFactions[index]));
         }
     }
 
     private void OnValidate()
     {
-        System.Array.Resize(ref factionName, buttons.Length);
+        System.Array.Resize(ref unitFactions, factionButtons.Length);
     }
 
-    public void SpawnFactionCards(string factionName)
+    public void SpawnFactionCards(UnitFaction unitFaction)
     {
-        n = 0;
-        do
+        for (int i = 0; i < unitInventory.Items.Count; i++)
         {
-            switch (factionName)
+            if (unitFaction.CheckClass(unitInventory.Items[i].item.unitClass) == true)
             {
-                case "Faction1":
-                    {
-                        if (CheckClass("Class1", "Class2", "Class3") == true)
-                        {
-                            InstantiateUnitCards();
-                        }
-                        break;
-                    }
-                case "Faction2":
-                    {
-                        if (CheckClass("Class4", "Class5", "Class6") == true)
-                        {
-                            InstantiateUnitCards();
-                        }
-                        break;
-                    }
-                case "Faction3":
-                    {
-                        if (CheckClass("Class7", "Class8", "Class9") == true)
-                        {
-                            InstantiateUnitCards();
-                        }
-                        break;
-                    }
+                InstantiateUnitCards(i);
             }
-            n++;
-        } while (n != unitInventory.Items.Count);
+        }
     }
 
-    public void InstantiateUnitCards()
+    public void InstantiateUnitCards(int i)
     {
         instantiatedPrefab = Instantiate(unitPrefab, parentObject.transform);
-        instantiatedPrefab.name = "[" + n + "]" + unitInventory.Items[n].item.name;
-        instantiatedPrefab.GetComponent<Unit>().setUnitData(unitInventory.Items[n].item);
-        instantiatedPrefab.GetComponent<Unit>().setUnitAmount(unitInventory.Items[n].amount);
-    }
-
-    public bool CheckClass(string unitClass1, string unitClass2, string unitClass3)
-    {
-        if (unitInventory.Items[n].item.unitClass.ToString().Equals(unitClass1) |
-            unitInventory.Items[n].item.unitClass.ToString().Equals(unitClass2) |
-            unitInventory.Items[n].item.unitClass.ToString().Equals(unitClass3))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        instantiatedPrefab.name = "[" + i + "]" + unitInventory.Items[i].item.name;
+        instantiatedPrefab.GetComponent<Unit>().setUnitData(unitInventory.Items[i].item);
+        instantiatedPrefab.GetComponent<Unit>().setUnitAmount(unitInventory.Items[i].amount);
     }
 }

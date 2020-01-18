@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Soldiers
   m_EditorClassIdentifier: 
   unitName: Soldiers
-  unitClass: 0
   maxHealth: 10
   damage: 4
+  unitFaction: {fileID: 11400000, guid: e74578481575d0f419a9961f93f897cb, type: 2}
+  unitClass: {fileID: 11400000, guid: 7e43a94283594c448ba085f81aefc8cb, type: 2}

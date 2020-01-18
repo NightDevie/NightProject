@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fe632c136197341b732f8f2595ba98, type: 3}
+  m_Name: Faction1
+  m_EditorClassIdentifier: 
+  factionName: Faction1
+  factionClasses:
+  - {fileID: 11400000, guid: 7e43a94283594c448ba085f81aefc8cb, type: 2}
+  - {fileID: 11400000, guid: a11788f6bb6f4f8479bf19a2be63751d, type: 2}
+  - {fileID: 11400000, guid: 2c3fb29ea5dc28e4c8849c14bba01fec, type: 2}
