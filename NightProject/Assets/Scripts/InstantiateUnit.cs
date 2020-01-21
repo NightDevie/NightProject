@@ -1,23 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InstantiateUnit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public UnitsInventory UnitsInventory;
+    public GameObject UnitPrefab;
+    public GameObject ParentObject;
+    public Button Button;
+
+    private void Start()
     {
-        
+        Button.onClick.AddListener(() => InstantiatePrefab(1));
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InstantiatePrefab(int index)
     {
-        
-    }
+        GameObject instantiatedPrefab;
+        instantiatedPrefab = Instantiate(UnitPrefab, ParentObject.transform);
 
-    public void InstantiateUnits(GameObject go)
-    {
-
+        Unit unit = instantiatedPrefab.gameObject.GetComponent<Unit>();
+        instantiatedPrefab.name = "[" + index + "]" + unit.UnitName;
     }
 }

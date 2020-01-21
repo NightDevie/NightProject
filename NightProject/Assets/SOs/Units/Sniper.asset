@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sniper
   m_EditorClassIdentifier: 
   unitName: Sniper
-  maxHealth: 8
-  damage: 6
   unitFaction: {fileID: 11400000, guid: 7afb0c8b9c467ab49b8c854ae21b788b, type: 2}
   unitClass: {fileID: 11400000, guid: 08407b85df0b82f48822897f0bc7dde2, type: 2}
+  maxHealth: 8
+  damage: 7

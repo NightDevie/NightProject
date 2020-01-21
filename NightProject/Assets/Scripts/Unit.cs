@@ -2,53 +2,51 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : MonoBehaviour
+public class Unit : MonoBehaviour, ISelectable
 {
-    public string unitName;
+    public string UnitName;
     
-    public UnitData unitData;
-    public UnitFaction unitFaction;
-    public UnitClass unitClass;
+    public UnitData UnitData;
+    public UnitFaction UnitFaction;
+    public UnitClass UnitClass;
      
-    public int maxHealth;
-    public int currentHealth;
-    public int damage;
-    public int unitAmount;
+    public int MaxHealth;
+    public int CurrentHealth;
+    public int Damage;
+    public int UnitAmount;
     
-
     void Start()
     {
 #if UNITY_EDITOR
         UpdateMyVariables();
-        unitData.OnValueChanged += UpdateMyVariables;
+        UnitData.OnValueChanged += UpdateMyVariables;
 #endif
     }
 
 #if UNITY_EDITOR
     void UpdateMyVariables()
     {
-        maxHealth = unitData.maxHealth;
-        currentHealth = maxHealth;
-        damage = unitData.damage;
-        unitName = unitData.unitName;
+        MaxHealth = UnitData.getMaxHealth();
+        CurrentHealth = MaxHealth;
+        Damage = UnitData.getDamage();
+        UnitName = UnitData.getUnitName();
     }
 #endif
 
-    public void setUnitData(UnitData unitData)
+    public void SetUnitData(UnitData unitData)
     {
-        this.unitData = unitData;
+        UnitData = unitData;
     }
-
-    public void setMaxHealth(int maxHealth)
+    public void SetMaxHealth(int maxHealth)
     {
-
+        MaxHealth = maxHealth;
     }
-    public void setCurrentHealth()
+    public void SetCurrentHealth()
     {
-        currentHealth = maxHealth;
+        CurrentHealth = MaxHealth;
     }
-    public void setUnitAmount(int unitAmount)
+    public void SetUnitAmount(int unitAmount)
     {
-        this.unitAmount = unitAmount;
+        UnitAmount = unitAmount;
     }
 }

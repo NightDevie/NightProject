@@ -5,23 +5,22 @@ using UnityEngine.UI;
 
 public class UnitUI : MonoBehaviour
 {
-    public Unit unit;
+    public Unit Unit;
 
-    public Text unitText;
-    public Text healthText;
-    public Text damageText;
-    public Text unitAmountText;
+    public Text NameText;
+    public Text HealthText;
+    public Text DamageText;
+    public Text UnitAmountText;
 
-    public int amount;
+    public int Amount;
 
     // Start is called before the first frame update
     void Start()
     {
 #if UNITY_EDITOR
         editorUIUpdate();
-        unit.unitData.OnValueChanged += editorUIUpdate;
+        Unit.UnitData.OnValueChanged += editorUIUpdate;
 #endif
-
     }
 
     public void UIUpdateUnitHealth()
@@ -37,10 +36,10 @@ public class UnitUI : MonoBehaviour
 #if UNITY_EDITOR
     public void editorUIUpdate()
     {
-        unitText.text = unit.unitName.ToString();
-        healthText.text = unit.maxHealth.ToString();
-        damageText.text = unit.damage.ToString();
-        unitAmountText.text = unit.unitAmount.ToString();
+        NameText.text = Unit.UnitName.ToString();
+        HealthText.text = Unit.MaxHealth.ToString();
+        DamageText.text = Unit.Damage.ToString();
+        UnitAmountText.text = Unit.UnitAmount.ToString();
     }
 #endif
 }

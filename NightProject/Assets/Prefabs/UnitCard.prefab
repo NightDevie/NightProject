@@ -363,12 +363,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e08377ea98e639408f47aa9c88aabe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitData: {fileID: 0}
-  unitName: 
-  maxHealth: 0
-  currentHealth: 0
-  damage: 0
-  unitAmount: 0
+  UnitName: 
+  UnitData: {fileID: 0}
+  UnitFaction: {fileID: 0}
+  UnitClass: {fileID: 0}
+  MaxHealth: 0
+  CurrentHealth: 0
+  Damage: 0
+  UnitAmount: 0
 --- !u!114 &8197569010816945242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,12 +383,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcdbfc8d2d11b440994a7ef8ab6ec45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unit: {fileID: 8197569010816945243}
-  unitText: {fileID: 8197569011987024748}
-  healthText: {fileID: 8197569011193383710}
-  damageText: {fileID: 8197569010208770900}
-  unitAmountText: {fileID: 8197569010444658517}
-  amount: 0
+  Unit: {fileID: 8197569010816945243}
+  NameText: {fileID: 8197569011987024748}
+  HealthText: {fileID: 8197569011193383710}
+  DamageText: {fileID: 8197569010208770900}
+  UnitAmountText: {fileID: 8197569010444658517}
+  Amount: 0
 --- !u!1 &8197569011193383708
 GameObject:
   m_ObjectHideFlags: 0
