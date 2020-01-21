@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 461991352}
   - component: {fileID: 461991351}
   m_Layer: 5
-  m_Name: FactionButtons
+  m_Name: UnitCards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,10 +292,9 @@ GameObject:
   m_Component:
   - component: {fileID: 479578619}
   - component: {fileID: 479578618}
-  - component: {fileID: 479578620}
   - component: {fileID: 479578621}
   m_Layer: 0
-  m_Name: BattleManager
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -327,25 +326,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &479578620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479578617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b91e6a4173b15f449ad48fc35ea5a9b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Items:
-  - item: {fileID: 11400000, guid: d965a9d4d7dbab3408a03cceb579fd44, type: 2}
-    amount: 6
-  - item: {fileID: 11400000, guid: dd4d3b72703d42140b15bad0b203eeb2, type: 2}
-    amount: 2
-  - item: {fileID: 11400000, guid: 5e41574b48e38e84881dbaf8280da5bc, type: 2}
-    amount: 4
 --- !u!114 &479578621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,15 +338,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c392ff698e12eb1499f1a11101b3f301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitInventory: {fileID: 479578620}
-  unitPrefab: {fileID: 8197569010816945240, guid: 8cd9595004ea23d44871bed35a82981c,
+  UnitInventory: {fileID: 11400000, guid: 01f55ad35c133bd4d970e3a8e317f837, type: 2}
+  UnitPrefab: {fileID: 8197569010816945240, guid: 8cd9595004ea23d44871bed35a82981c,
     type: 3}
-  parentObject: {fileID: 461991349}
-  factionButtons:
+  ParentObject: {fileID: 461991349}
+  FactionButtons:
   - {fileID: 882222268}
   - {fileID: 911389781}
   - {fileID: 1412462136}
-  unitFactions:
+  UnitFactions:
   - {fileID: 11400000, guid: e74578481575d0f419a9961f93f897cb, type: 2}
   - {fileID: 11400000, guid: 7afb0c8b9c467ab49b8c854ae21b788b, type: 2}
   - {fileID: 11400000, guid: b9d089f2c5abdf94b84b506e885e6747, type: 2}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fe632c136197341b732f8f2595ba98, type: 3}
   m_Name: Faction3
   m_EditorClassIdentifier: 
-  factionName: Faction3
-  factionClasses:
+  FactionName: Faction3
+  FactionClasses:
   - {fileID: 11400000, guid: 9e72feba7153175458e75f3a66c0d8e8, type: 2}
   - {fileID: 11400000, guid: 5aafd578ab6c7d944954f1757b7587be, type: 2}
   - {fileID: 11400000, guid: 4e1e30533b5bfaf458d9070674efd8e7, type: 2}

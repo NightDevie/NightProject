@@ -5,6 +5,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Unit", menuName = "Unit")]
 public class UnitData : ScriptableObject
 {
+    public string unitName;
+    
+    public UnitFaction unitFaction;
+    public UnitClass unitClass;
+    
+    public int maxHealth;
+    public int damage;
+
 #if UNITY_EDITOR
     public event System.Action OnValueChanged;
 
@@ -12,11 +20,5 @@ public class UnitData : ScriptableObject
     {
         OnValueChanged?.Invoke();
     }
-#endif
-    
-    public string unitName;
-    public int maxHealth;
-    public int damage;
-    public UnitFaction unitFaction;
-    public UnitClass unitClass;
+#endif    
 }

@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public UnitData unitData;
     public string unitName;
+    
+    public UnitData unitData;
+    public UnitFaction unitFaction;
+    public UnitClass unitClass;
+     
     public int maxHealth;
     public int currentHealth;
     public int damage;
     public int unitAmount;
+    
 
     void Start()
     {
