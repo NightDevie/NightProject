@@ -33,6 +33,11 @@ public class Unit : MonoBehaviour, ISelectable
     }
 #endif
 
+    public GameObject Selected()
+    {
+        return gameObject;
+    }
+
     public void SetUnitData(UnitData unitData)
     {
         UnitData = unitData;
