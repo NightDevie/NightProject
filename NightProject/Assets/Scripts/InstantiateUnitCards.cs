@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class InstantiateUnitCards : MonoBehaviour
 {
-    public UnitsInventory UnitsInventory;
-    public GameObject UnitCardPrefab;
-    public GameObject ParentObject;
+    public UnitsInventory unitsInventory;
+    public GameObject unitCardPrefab;
+    public GameObject parentObject;
     
-    public Button[] FactionButtons;
-    public UnitFaction[] UnitFactions;
+    public Button[] factionButtons;
+    public UnitFaction[] unitFactions;
 
     void Start()
     {
@@ -19,23 +19,23 @@ public class InstantiateUnitCards : MonoBehaviour
     
     public void AddListeners()
     {
-        for (int i = 0; i < FactionButtons.Length; i++)
+        for (int i = 0; i < factionButtons.Length; i++)
         {
             int factionIndex = i;
-            FactionButtons[i].onClick.AddListener(() => CheckFaction(UnitFactions[factionIndex]));
+            factionButtons[i].onClick.AddListener(() => CheckFaction(unitFactions[factionIndex]));
         }
     }
 
     private void OnValidate()
     {
-        System.Array.Resize(ref UnitFactions, FactionButtons.Length);
+        System.Array.Resize(ref unitFactions, factionButtons.Length);
     }
 
     public void CheckFaction(UnitFaction unitFaction)
     {
-        for (int i = 0; i < UnitsInventory.Items.Count; i++)
+        for (int i = 0; i < unitsInventory.Items.Count; i++)
         {
-            if (unitFaction.CheckClass(UnitsInventory.Items[i].Item.getUnitClass()) == true)
+            if (unitFaction.CheckClass(unitsInventory.Items[i].Item.getUnitClass()) == true)
             {
                 InstantiatePrefab(i);
             }
@@ -45,11 +45,11 @@ public class InstantiateUnitCards : MonoBehaviour
     public void InstantiatePrefab(int index)
     {
         GameObject instantiatedPrefab;
-        instantiatedPrefab = Instantiate(UnitCardPrefab, ParentObject.transform);
+        instantiatedPrefab = Instantiate(unitCardPrefab, parentObject.transform);
         
         Unit unit = instantiatedPrefab.gameObject.GetComponent<Unit>();
-        unit.SetUnitData(UnitsInventory.Items[index].Item);
-        unit.SetUnitAmount(UnitsInventory.Items[index].Amount);
-        instantiatedPrefab.name = "[" + index + "]" + unit.UnitData.getUnitName();
+        unit.SetUnitData(unitsInventory.Items[index].Item);
+        unit.SetUnitAmount(unitsInventory.Items[index].Amount);
+        instantiatedPrefab.name = "[" + index + "]" + unit.unitData.getUnitName();
     } 
 }

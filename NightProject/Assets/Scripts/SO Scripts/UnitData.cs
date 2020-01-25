@@ -1,20 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "New Unit", menuName = "Unit")]
 public class UnitData : ScriptableObject
 {
-    [SerializeField]
+    [SerializeField, FormerlySerializedAs("unitName")]
     private string unitName;
-    [SerializeField]
+
+    [SerializeField, FormerlySerializedAs("unitFaction")]
     private UnitFaction unitFaction;
-    [SerializeField]
+
+    [SerializeField, FormerlySerializedAs("unitClass")]
     private UnitClass unitClass;
-    [SerializeField]
+
+    [SerializeField, FormerlySerializedAs("maxHealth")]
     private int maxHealth;
-    [SerializeField]
-    private int damage;
+
+    [SerializeField, FormerlySerializedAs("damage")]
+    private int unitDamage;
 
     public string getUnitName()
     {
@@ -38,7 +43,7 @@ public class UnitData : ScriptableObject
 
     public int getDamage()
     {
-        return damage;
+        return unitDamage;
     }
 
 #if UNITY_EDITOR

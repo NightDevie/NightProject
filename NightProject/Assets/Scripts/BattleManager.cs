@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour
 {
-    public GameObject SelectedUnit;
-    public Unit Unit;
+    public GameObject selectedUnit;
+    public Unit unit;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -20,8 +21,8 @@ public class BattleManager : MonoBehaviour
 
                 if (selectable != null)
                 {
-                    SelectedUnit = selectable.Selected();
-                    Debug.Log(SelectedUnit.name);
+                    selectedUnit = selectable.Selected();
+                    Debug.Log(selectedUnit.name);
                 }
             }
         }

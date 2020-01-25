@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "New UnitFaction", menuName = "UnitFaction")]
 public class UnitFaction : ScriptableObject
 {
-    public string FactionName;
-    public List<UnitClass> FactionClasses;
+    public string factionName;
+    public List<UnitClass> factionClasses;
 
     public bool CheckClass(UnitClass unitClass)
     {
-        for (int i = 0; i < FactionClasses.Count; i++)
+        for (int i = 0; i < factionClasses.Count; i++)
         {
-            if (FactionClasses[i] == unitClass)
+            if (factionClasses[i] == unitClass)
             {
                 return true;
             }

@@ -4,32 +4,32 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour, ISelectable
 {
-    public string UnitName;
+    public string unitName;
     
-    public UnitData UnitData;
-    public UnitFaction UnitFaction;
-    public UnitClass UnitClass;
+    public UnitData unitData;
+    public UnitFaction unitFaction;
+    public UnitClass unitClass;
      
-    public int MaxHealth;
-    public int CurrentHealth;
-    public int Damage;
-    public int UnitAmount;
+    public int maxHealth;
+    public int currentHealth;
+    public int damage;
+    public int unitAmount;
     
     void Start()
     {
 #if UNITY_EDITOR
         UpdateMyVariables();
-        UnitData.OnValueChanged += UpdateMyVariables;
+        unitData.OnValueChanged += UpdateMyVariables;
 #endif
     }
 
 #if UNITY_EDITOR
     void UpdateMyVariables()
     {
-        MaxHealth = UnitData.getMaxHealth();
-        CurrentHealth = MaxHealth;
-        Damage = UnitData.getDamage();
-        UnitName = UnitData.getUnitName();
+        maxHealth = unitData.getMaxHealth();
+        currentHealth = maxHealth;
+        damage = unitData.getDamage();
+        unitName = unitData.getUnitName();
     }
 #endif
 
@@ -40,18 +40,18 @@ public class Unit : MonoBehaviour, ISelectable
 
     public void SetUnitData(UnitData unitData)
     {
-        UnitData = unitData;
+        this.unitData = unitData;
     }
     public void SetMaxHealth(int maxHealth)
     {
-        MaxHealth = maxHealth;
+        this.maxHealth = maxHealth;
     }
     public void SetCurrentHealth()
     {
-        CurrentHealth = MaxHealth;
+        currentHealth = maxHealth;
     }
     public void SetUnitAmount(int unitAmount)
     {
-        UnitAmount = unitAmount;
+        this.unitAmount = unitAmount;
     }
 }
