@@ -1,0 +1,6727 @@
+fileFormatVersion: 2
+guid: 6cc16d6b0e6c7fe47a87b2dd5fbce36c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2609996904586159642
+    second: spaghetti_atlas_0
+  - first:
+      213: -6324408434132577004
+    second: spaghetti_atlas_1
+  - first:
+      213: 2257355558651230536
+    second: spaghetti_atlas_2
+  - first:
+      213: -3756108558190337359
+    second: spaghetti_atlas_3
+  - first:
+      213: -2641605352156124745
+    second: spaghetti_atlas_4
+  - first:
+      213: 3801779960369566164
+    second: spaghetti_atlas_5
+  - first:
+      213: -4760145818987056271
+    second: spaghetti_atlas_6
+  - first:
+      213: 5514530701953319153
+    second: spaghetti_atlas_7
+  - first:
+      213: 2695320749463497830
+    second: spaghetti_atlas_8
+  - first:
+      213: 1323998248633689597
+    second: spaghetti_atlas_9
+  - first:
+      213: -7146573363185922880
+    second: spaghetti_atlas_10
+  - first:
+      213: 4458618281835992038
+    second: spaghetti_atlas_11
+  - first:
+      213: -675866355648533885
+    second: spaghetti_atlas_12
+  - first:
+      213: 5688693822632977253
+    second: spaghetti_atlas_13
+  - first:
+      213: 3942692326483062007
+    second: spaghetti_atlas_14
+  - first:
+      213: -5183212837535348870
+    second: spaghetti_atlas_15
+  - first:
+      213: 6890315707713839518
+    second: spaghetti_atlas_16
+  - first:
+      213: 4440533040649838664
+    second: spaghetti_atlas_17
+  - first:
+      213: -1277810785851914509
+    second: spaghetti_atlas_18
+  - first:
+      213: 2477996975896448192
+    second: spaghetti_atlas_19
+  - first:
+      213: 2449237102090008045
+    second: spaghetti_atlas_20
+  - first:
+      213: 7141876073370408880
+    second: spaghetti_atlas_21
+  - first:
+      213: 998071295612506712
+    second: spaghetti_atlas_22
+  - first:
+      213: -1271117424488697833
+    second: spaghetti_atlas_23
+  - first:
+      213: -7064875442125853503
+    second: spaghetti_atlas_24
+  - first:
+      213: -364072228295738772
+    second: spaghetti_atlas_25
+  - first:
+      213: -2965282030569047598
+    second: spaghetti_atlas_26
+  - first:
+      213: -5218466961568775057
+    second: spaghetti_atlas_27
+  - first:
+      213: -1693360331738051848
+    second: spaghetti_atlas_28
+  - first:
+      213: 1068832548058848603
+    second: spaghetti_atlas_29
+  - first:
+      213: 6020989897382575623
+    second: spaghetti_atlas_30
+  - first:
+      213: 7208773662334963065
+    second: spaghetti_atlas_31
+  - first:
+      213: 866019433450005313
+    second: spaghetti_atlas_32
+  - first:
+      213: -487964582324432497
+    second: spaghetti_atlas_33
+  - first:
+      213: 2727058096262332695
+    second: spaghetti_atlas_34
+  - first:
+      213: 4690195075482565497
+    second: spaghetti_atlas_35
+  - first:
+      213: 2976346044901333935
+    second: spaghetti_atlas_36
+  - first:
+      213: 862914050858240319
+    second: spaghetti_atlas_37
+  - first:
+      213: 8261171200266237742
+    second: spaghetti_atlas_38
+  - first:
+      213: 3100349841699863244
+    second: spaghetti_atlas_39
+  - first:
+      213: -6809296706581563754
+    second: spaghetti_atlas_40
+  - first:
+      213: 2539004591684568587
+    second: spaghetti_atlas_41
+  - first:
+      213: -8590143602026688040
+    second: spaghetti_atlas_42
+  - first:
+      213: -4928107144066956700
+    second: spaghetti_atlas_43
+  - first:
+      213: -8397602897222111733
+    second: spaghetti_atlas_44
+  - first:
+      213: -7715541315942635833
+    second: spaghetti_atlas_45
+  - first:
+      213: 7996255073698195523
+    second: spaghetti_atlas_46
+  - first:
+      213: -8213840392369348553
+    second: spaghetti_atlas_47
+  - first:
+      213: 8819594403193971664
+    second: spaghetti_atlas_48
+  - first:
+      213: -1377213300729967059
+    second: spaghetti_atlas_49
+  - first:
+      213: 8396067901775609076
+    second: spaghetti_atlas_50
+  - first:
+      213: 7495408311567619007
+    second: spaghetti_atlas_51
+  - first:
+      213: 7962889843522654857
+    second: spaghetti_atlas_52
+  - first:
+      213: -5276037521949105668
+    second: spaghetti_atlas_53
+  - first:
+      213: -3738399493235853413
+    second: spaghetti_atlas_54
+  - first:
+      213: 8484439339186018563
+    second: spaghetti_atlas_55
+  - first:
+      213: -5729440211006493664
+    second: spaghetti_atlas_56
+  - first:
+      213: -1007158638760682247
+    second: spaghetti_atlas_57
+  - first:
+      213: 202084931903519923
+    second: spaghetti_atlas_58
+  - first:
+      213: -409604075332108980
+    second: spaghetti_atlas_59
+  - first:
+      213: -8643419088154476241
+    second: spaghetti_atlas_60
+  - first:
+      213: -2926259944620652161
+    second: spaghetti_atlas_61
+  - first:
+      213: -9045748900674774857
+    second: spaghetti_atlas_62
+  - first:
+      213: 5481053425900196328
+    second: spaghetti_atlas_63
+  - first:
+      213: 5172946761262600139
+    second: spaghetti_atlas_64
+  - first:
+      213: -3939023306687736015
+    second: spaghetti_atlas_65
+  - first:
+      213: 3470507414085024095
+    second: spaghetti_atlas_66
+  - first:
+      213: -7364092006891698855
+    second: spaghetti_atlas_67
+  - first:
+      213: -8726775340238772692
+    second: spaghetti_atlas_68
+  - first:
+      213: -5021423242352283027
+    second: spaghetti_atlas_69
+  - first:
+      213: 7115163349311207638
+    second: spaghetti_atlas_70
+  - first:
+      213: -2741445898088273039
+    second: spaghetti_atlas_71
+  - first:
+      213: 1571733255847447035
+    second: spaghetti_atlas_72
+  - first:
+      213: 8062422062063444863
+    second: spaghetti_atlas_73
+  - first:
+      213: -8417664438944933015
+    second: spaghetti_atlas_74
+  - first:
+      213: -1509258843732748125
+    second: spaghetti_atlas_75
+  - first:
+      213: 390808149166527520
+    second: spaghetti_atlas_76
+  - first:
+      213: -9160126974386749561
+    second: spaghetti_atlas_77
+  - first:
+      213: -2539370820668754405
+    second: spaghetti_atlas_78
+  - first:
+      213: -7482614997068064476
+    second: spaghetti_atlas_79
+  - first:
+      213: 1003251548725566669
+    second: spaghetti_atlas_80
+  - first:
+      213: -1894924801203777352
+    second: spaghetti_atlas_81
+  - first:
+      213: -3729101358972093961
+    second: spaghetti_atlas_82
+  - first:
+      213: -7060595144412913508
+    second: spaghetti_atlas_83
+  - first:
+      213: 451485854778589853
+    second: spaghetti_atlas_84
+  - first:
+      213: 5079441904737987733
+    second: spaghetti_atlas_85
+  - first:
+      213: 54572895453399210
+    second: spaghetti_atlas_86
+  - first:
+      213: -6543782056677581004
+    second: spaghetti_atlas_87
+  - first:
+      213: -5134567958893468511
+    second: spaghetti_atlas_88
+  - first:
+      213: -2474268674113729838
+    second: spaghetti_atlas_89
+  - first:
+      213: -2347212845765413327
+    second: spaghetti_atlas_90
+  - first:
+      213: -6023334786804971241
+    second: spaghetti_atlas_91
+  - first:
+      213: -4218268229946954788
+    second: spaghetti_atlas_92
+  - first:
+      213: 8397413180859250363
+    second: spaghetti_atlas_93
+  - first:
+      213: 837419053236760402
+    second: spaghetti_atlas_94
+  - first:
+      213: -7781881393507862131
+    second: spaghetti_atlas_95
+  - first:
+      213: -305265006996917045
+    second: spaghetti_atlas_96
+  - first:
+      213: -8799516850751616474
+    second: spaghetti_atlas_97
+  - first:
+      213: -1128824460530925517
+    second: spaghetti_atlas_98
+  - first:
+      213: 6899202604662967746
+    second: spaghetti_atlas_99
+  - first:
+      213: -6960348787422864445
+    second: spaghetti_atlas_100
+  - first:
+      213: -220405658597931309
+    second: spaghetti_atlas_101
+  - first:
+      213: -625711776775621718
+    second: spaghetti_atlas_102
+  - first:
+      213: 5635016400108619720
+    second: spaghetti_atlas_103
+  - first:
+      213: -4519234982433365547
+    second: spaghetti_atlas_104
+  - first:
+      213: 2453731547661603591
+    second: spaghetti_atlas_105
+  - first:
+      213: 1131943986528347377
+    second: spaghetti_atlas_106
+  - first:
+      213: 9071506638776402714
+    second: spaghetti_atlas_107
+  - first:
+      213: -6991951387722615853
+    second: spaghetti_atlas_108
+  - first:
+      213: -3735418128709046889
+    second: spaghetti_atlas_109
+  - first:
+      213: -5182725337817492343
+    second: spaghetti_atlas_110
+  - first:
+      213: -7237051328085283103
+    second: spaghetti_atlas_111
+  - first:
+      213: -3567626228089271920
+    second: spaghetti_atlas_112
+  - first:
+      213: 5123377973269489473
+    second: spaghetti_atlas_113
+  - first:
+      213: 2282159679987007071
+    second: spaghetti_atlas_114
+  - first:
+      213: -116952566736546139
+    second: spaghetti_atlas_115
+  - first:
+      213: 2239710727968806557
+    second: spaghetti_atlas_116
+  - first:
+      213: -7588329028787382874
+    second: spaghetti_atlas_117
+  - first:
+      213: -7258376496645211577
+    second: spaghetti_atlas_118
+  - first:
+      213: 1553936584017621918
+    second: spaghetti_atlas_119
+  - first:
+      213: 3077426722801275316
+    second: spaghetti_atlas_120
+  - first:
+      213: -8602481419780779443
+    second: spaghetti_atlas_121
+  - first:
+      213: 7203048994718838738
+    second: spaghetti_atlas_122
+  - first:
+      213: 834271731333490967
+    second: spaghetti_atlas_123
+  - first:
+      213: 6728939306180419690
+    second: spaghetti_atlas_124
+  - first:
+      213: 4701589848266552802
+    second: spaghetti_atlas_125
+  - first:
+      213: -6871412745027610147
+    second: spaghetti_atlas_126
+  - first:
+      213: -5895323191754674915
+    second: spaghetti_atlas_127
+  - first:
+      213: 4937128670720413172
+    second: spaghetti_atlas_128
+  - first:
+      213: 8197989777308113681
+    second: spaghetti_atlas_129
+  - first:
+      213: 7529485492387257302
+    second: spaghetti_atlas_130
+  - first:
+      213: 3490183882212503036
+    second: spaghetti_atlas_131
+  - first:
+      213: -6094286184977178252
+    second: spaghetti_atlas_132
+  - first:
+      213: 3467072453949653075
+    second: spaghetti_atlas_133
+  - first:
+      213: -2476199416660096377
+    second: spaghetti_atlas_134
+  - first:
+      213: 4626834254114556015
+    second: spaghetti_atlas_135
+  - first:
+      213: 4526954683215667339
+    second: spaghetti_atlas_136
+  - first:
+      213: -4644607496621487565
+    second: spaghetti_atlas_137
+  - first:
+      213: -4449036977200541152
+    second: spaghetti_atlas_138
+  - first:
+      213: -389939254012221172
+    second: spaghetti_atlas_139
+  - first:
+      213: -980579477180420046
+    second: spaghetti_atlas_140
+  - first:
+      213: -1717583315043182612
+    second: spaghetti_atlas_141
+  - first:
+      213: 918210869052042734
+    second: spaghetti_atlas_142
+  - first:
+      213: 9026674627144826490
+    second: spaghetti_atlas_143
+  - first:
+      213: 6023418841776660961
+    second: spaghetti_atlas_144
+  - first:
+      213: -4920866467658207756
+    second: spaghetti_atlas_145
+  - first:
+      213: 3999472167633338883
+    second: spaghetti_atlas_146
+  - first:
+      213: -6248190945948932584
+    second: spaghetti_atlas_147
+  - first:
+      213: -402334960195482852
+    second: spaghetti_atlas_148
+  - first:
+      213: -4304578061264209350
+    second: spaghetti_atlas_149
+  - first:
+      213: 4468413657048369997
+    second: spaghetti_atlas_150
+  - first:
+      213: 4308133281949340950
+    second: spaghetti_atlas_151
+  - first:
+      213: 2542708038753940391
+    second: spaghetti_atlas_152
+  - first:
+      213: -5477948510066387271
+    second: spaghetti_atlas_153
+  - first:
+      213: -1832660019476662887
+    second: spaghetti_atlas_154
+  - first:
+      213: 8647337488482107606
+    second: spaghetti_atlas_155
+  - first:
+      213: 8799605572642587116
+    second: spaghetti_atlas_156
+  - first:
+      213: 1822002707656938263
+    second: spaghetti_atlas_157
+  - first:
+      213: -3354097968942278742
+    second: spaghetti_atlas_158
+  - first:
+      213: -4007856190478478128
+    second: spaghetti_atlas_159
+  - first:
+      213: -8057556800512214959
+    second: spaghetti_atlas_160
+  - first:
+      213: -2959198813233138510
+    second: spaghetti_atlas_161
+  - first:
+      213: -2770868156901358128
+    second: spaghetti_atlas_162
+  - first:
+      213: -5364206449063978637
+    second: spaghetti_atlas_163
+  - first:
+      213: 4964387165173053539
+    second: spaghetti_atlas_164
+  - first:
+      213: 8637727742815836106
+    second: spaghetti_atlas_165
+  - first:
+      213: -2292595109527770054
+    second: spaghetti_atlas_166
+  - first:
+      213: 1134702038709453069
+    second: spaghetti_atlas_167
+  - first:
+      213: -6614586023269295684
+    second: spaghetti_atlas_168
+  - first:
+      213: -1746921445570784541
+    second: spaghetti_atlas_169
+  - first:
+      213: 653961127852773816
+    second: spaghetti_atlas_170
+  - first:
+      213: -8873477525715780422
+    second: spaghetti_atlas_171
+  - first:
+      213: -1678177653357913911
+    second: spaghetti_atlas_172
+  - first:
+      213: -3970751693405698336
+    second: spaghetti_atlas_173
+  - first:
+      213: -5077743516512909427
+    second: spaghetti_atlas_174
+  - first:
+      213: -1201032030401161329
+    second: spaghetti_atlas_175
+  - first:
+      213: 4863046348786992941
+    second: spaghetti_atlas_176
+  - first:
+      213: 1631981551934754563
+    second: spaghetti_atlas_177
+  - first:
+      213: -4114273074364459422
+    second: spaghetti_atlas_178
+  - first:
+      213: 3447706418560308997
+    second: spaghetti_atlas_179
+  - first:
+      213: 6450844017832654676
+    second: spaghetti_atlas_180
+  - first:
+      213: 985510398637729616
+    second: spaghetti_atlas_181
+  - first:
+      213: -1228966544384593224
+    second: spaghetti_atlas_182
+  - first:
+      213: 2450757457482013330
+    second: spaghetti_atlas_183
+  - first:
+      213: 1062923657852271696
+    second: spaghetti_atlas_184
+  - first:
+      213: -2552260551044621060
+    second: spaghetti_atlas_185
+  - first:
+      213: -1751025900832202986
+    second: spaghetti_atlas_186
+  - first:
+      213: 6157913358699745602
+    second: spaghetti_atlas_187
+  - first:
+      213: -1390548840407797562
+    second: spaghetti_atlas_188
+  - first:
+      213: -2412429238432842988
+    second: spaghetti_atlas_189
+  - first:
+      213: -6075112649999562105
+    second: spaghetti_atlas_190
+  - first:
+      213: -2189652288888346921
+    second: spaghetti_atlas_191
+  - first:
+      213: -2482301929857582614
+    second: spaghetti_atlas_192
+  - first:
+      213: 7044129909265666646
+    second: spaghetti_atlas_193
+  - first:
+      213: -4806148569626225137
+    second: spaghetti_atlas_194
+  - first:
+      213: 5367368712982585735
+    second: spaghetti_atlas_195
+  - first:
+      213: 8267938681391387272
+    second: spaghetti_atlas_196
+  - first:
+      213: -8051565000715345992
+    second: spaghetti_atlas_197
+  - first:
+      213: 2722173985333710652
+    second: spaghetti_atlas_198
+  - first:
+      213: -2935680463104239355
+    second: spaghetti_atlas_199
+  - first:
+      213: 1554638973714467684
+    second: spaghetti_atlas_200
+  - first:
+      213: 847356485389812307
+    second: spaghetti_atlas_201
+  - first:
+      213: -9112343412160782712
+    second: spaghetti_atlas_202
+  - first:
+      213: 6295500877915775200
+    second: spaghetti_atlas_203
+  - first:
+      213: 284533032515928891
+    second: spaghetti_atlas_204
+  - first:
+      213: -2709147430181760341
+    second: spaghetti_atlas_205
+  - first:
+      213: 4296909163557500163
+    second: spaghetti_atlas_206
+  - first:
+      213: -7956326346488110585
+    second: spaghetti_atlas_207
+  - first:
+      213: -3518913839502644021
+    second: spaghetti_atlas_208
+  - first:
+      213: 7468636863102787641
+    second: spaghetti_atlas_209
+  - first:
+      213: 6469621405554282664
+    second: spaghetti_atlas_210
+  - first:
+      213: 3346990364024752750
+    second: spaghetti_atlas_211
+  - first:
+      213: -8890229507563073268
+    second: spaghetti_atlas_212
+  - first:
+      213: -4410609077042269681
+    second: spaghetti_atlas_213
+  - first:
+      213: 3314059968265706428
+    second: spaghetti_atlas_214
+  - first:
+      213: -3158504194291701306
+    second: spaghetti_atlas_215
+  - first:
+      213: 8228368818523002069
+    second: spaghetti_atlas_216
+  - first:
+      213: -8853165777978992470
+    second: spaghetti_atlas_217
+  - first:
+      213: 4129213889016185096
+    second: spaghetti_atlas_218
+  - first:
+      213: -5226710532565496612
+    second: spaghetti_atlas_219
+  - first:
+      213: 8825338782526181335
+    second: spaghetti_atlas_220
+  - first:
+      213: 927676449213006086
+    second: spaghetti_atlas_221
+  - first:
+      213: -9199857191713581471
+    second: spaghetti_atlas_222
+  - first:
+      213: 5919705166286078756
+    second: spaghetti_atlas_223
+  - first:
+      213: -7424735678220308331
+    second: spaghetti_atlas_224
+  - first:
+      213: 7604074329768901076
+    second: spaghetti_atlas_225
+  - first:
+      213: 9207536714584470806
+    second: spaghetti_atlas_226
+  - first:
+      213: 2047193636475374004
+    second: spaghetti_atlas_227
+  - first:
+      213: -1149783809522296516
+    second: spaghetti_atlas_228
+  - first:
+      213: -5281606428327494110
+    second: spaghetti_atlas_229
+  - first:
+      213: -4605976842868825725
+    second: spaghetti_atlas_230
+  - first:
+      213: 9174267814750035417
+    second: spaghetti_atlas_231
+  - first:
+      213: 6953186754832336465
+    second: spaghetti_atlas_232
+  - first:
+      213: 1387596347275294908
+    second: spaghetti_atlas_233
+  - first:
+      213: -5294078533742670484
+    second: spaghetti_atlas_234
+  - first:
+      213: 7013982993195729694
+    second: spaghetti_atlas_235
+  - first:
+      213: 5137500211929331285
+    second: spaghetti_atlas_236
+  - first:
+      213: 6029309875069977871
+    second: spaghetti_atlas_237
+  - first:
+      213: -4193566499332826269
+    second: spaghetti_atlas_238
+  - first:
+      213: 2800344763525546620
+    second: spaghetti_atlas_239
+  - first:
+      213: -7496742683827808995
+    second: spaghetti_atlas_240
+  - first:
+      213: 3911222827589148643
+    second: spaghetti_atlas_241
+  - first:
+      213: 1566832909965331013
+    second: spaghetti_atlas_242
+  - first:
+      213: 1082427054314196583
+    second: spaghetti_atlas_243
+  - first:
+      213: -2051420640122493301
+    second: spaghetti_atlas_244
+  - first:
+      213: -2904322708225426243
+    second: spaghetti_atlas_245
+  - first:
+      213: 508498009937139685
+    second: spaghetti_atlas_246
+  - first:
+      213: -3141688882695792076
+    second: spaghetti_atlas_247
+  - first:
+      213: -5091822525067122678
+    second: spaghetti_atlas_248
+  - first:
+      213: -1026228510300313737
+    second: spaghetti_atlas_249
+  - first:
+      213: 6453489814506925095
+    second: spaghetti_atlas_250
+  - first:
+      213: 3441157027740250840
+    second: spaghetti_atlas_251
+  - first:
+      213: -1737879353581977356
+    second: spaghetti_atlas_252
+  - first:
+      213: -4865662660105879816
+    second: spaghetti_atlas_253
+  - first:
+      213: 6330033206374813043
+    second: spaghetti_atlas_254
+  - first:
+      213: -8299640444151534445
+    second: spaghetti_atlas_255
+  - first:
+      213: -6064765407300384834
+    second: spaghetti_atlas_256
+  - first:
+      213: 4605462434726888822
+    second: spaghetti_atlas_257
+  - first:
+      213: -4206427105130363754
+    second: spaghetti_atlas_258
+  - first:
+      213: -6699150938041442980
+    second: spaghetti_atlas_259
+  - first:
+      213: -5767767365064416777
+    second: spaghetti_atlas_260
+  - first:
+      213: -270125323418660324
+    second: spaghetti_atlas_261
+  - first:
+      213: 3796013268619593306
+    second: spaghetti_atlas_262
+  - first:
+      213: 6240493356515380867
+    second: spaghetti_atlas_263
+  - first:
+      213: 7734264332692790363
+    second: spaghetti_atlas_264
+  - first:
+      213: 373886598868916690
+    second: spaghetti_atlas_265
+  - first:
+      213: 7086691057534258937
+    second: spaghetti_atlas_266
+  - first:
+      213: -6350031720812800699
+    second: spaghetti_atlas_267
+  - first:
+      213: -1552101982938053477
+    second: spaghetti_atlas_268
+  - first:
+      213: 8122122860348892013
+    second: spaghetti_atlas_269
+  - first:
+      213: -5008477828866875305
+    second: spaghetti_atlas_270
+  - first:
+      213: -5414911490510529877
+    second: spaghetti_atlas_271
+  - first:
+      213: -7703569861514277624
+    second: spaghetti_atlas_272
+  - first:
+      213: -6693626911761864599
+    second: spaghetti_atlas_273
+  - first:
+      213: -4997599180121485627
+    second: spaghetti_atlas_274
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spaghetti_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1883
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5a786e403f6d4b982ab0a9ac065bc
+      internalID: -2609996904586159642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1883
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c64f36b1df2174595fef201cccd455
+      internalID: -6324408434132577004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39073bf38711048927ca14c7e6338b
+      internalID: 2257355558651230536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1883
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08123f9331de70c4199a627afffff6d1
+      internalID: -3756108558190337359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1883
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288dd3b7197cba446b73a9963c80af3d
+      internalID: -2641605352156124745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3238668ad09d0d74d8912def8cdaf8c8
+      internalID: 3801779960369566164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41683ecc8c26a1541bedddb83108e886
+      internalID: -4760145818987056271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1883
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b8da5cebd17324e8125c8a74e34e25
+      internalID: 5514530701953319153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1883
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de51444b2e0e1ba4189545b0ab600a21
+      internalID: 2695320749463497830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb80741e08d24a84dbd0c90ce6433d72
+      internalID: 1323998248633689597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1883
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1fd061e6270345b369966b0ae5ac7
+      internalID: -7146573363185922880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1883
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97fb7a3cafdfc440999c1d27986118d
+      internalID: 4458618281835992038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1883
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f756ba11cb474b845ad52e9a0d14c379
+      internalID: -675866355648533885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1879
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c2a85ed759a7e46a05eeb72874045b
+      internalID: 5688693822632977253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1883
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc4fa0416cade14fb7ec1ed01143df5
+      internalID: 3942692326483062007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1883
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd88e8e190a24074b846e3297ff4ad38
+      internalID: -5183212837535348870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1879
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f06e89152df14baa8d3f69986206d
+      internalID: 6890315707713839518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1883
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce7801505ad404eba1c5aa95638e5a
+      internalID: 4440533040649838664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f463d87e55a7e458e7e9470906987f
+      internalID: -1277810785851914509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1883
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af769c9d56135c46837259284d20cbd
+      internalID: 2477996975896448192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1883
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ac851e2310bf4fbbb19d48db84c38
+      internalID: 2449237102090008045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1883
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83592c79180ce774588f42acfe662814
+      internalID: 7141876073370408880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1883
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661d0039af9e1b0408b9086d74de12c5
+      internalID: 998071295612506712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1883
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b824934a46b6345be1b1fa7b476844
+      internalID: -1271117424488697833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1713
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08911b905e57bad4ea54a8aaf960dd3d
+      internalID: -7064875442125853503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1713
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd66e0bba0eb744b8e433aa1e8ef57b
+      internalID: -364072228295738772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1713
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f9dd5cfa279a42a8d76ddee895517
+      internalID: -2965282030569047598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1713
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b37329ccd157a04689ef603fab775a2
+      internalID: -5218466961568775057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1713
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dafc1e2f5b41d4c8466331986659ec
+      internalID: -1693360331738051848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1713
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04b6099ca836f4b96b13a1f5514a35
+      internalID: 1068832548058848603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1713
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafcd455b62d24b4a984078791a6a98c
+      internalID: 6020989897382575623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1713
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79d0bea84058e42adf21d5b3683484
+      internalID: 7208773662334963065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1713
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f435c8b5fee654f9f0fa04189cbe26
+      internalID: 866019433450005313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1713
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ece4628f1c37254bb83d327c342ed9b
+      internalID: -487964582324432497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1713
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7d20bee46f5f74cacf015b31fcdbd5
+      internalID: 2727058096262332695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1713
+        width: 158
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304bf9fdda1bda54f9ba733cc8e926c4
+      internalID: 4690195075482565497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1713
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f6fee0053390f43a154d05155bfd51
+      internalID: 2976346044901333935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1713
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46221258a463a4182b07d3a0de255f
+      internalID: 862914050858240319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1713
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a28011776df243b613190f35bceac
+      internalID: 8261171200266237742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1713
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d98782073b83e649bd834f9087613aa
+      internalID: 3100349841699863244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1713
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f3a8aee224514ba6e8a453740beef
+      internalID: -6809296706581563754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1713
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126aaf58614a4b841b6ef739368ac039
+      internalID: 2539004591684568587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1713
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fd5a2ea381abc43866815eca9e1903
+      internalID: -8590143602026688040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1713
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa766bb42116a14a8bb079ba1f0f639
+      internalID: -4928107144066956700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1713
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c166a48f9e286b142914e97e091f9357
+      internalID: -8397602897222111733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1713
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89326505c11a44e98a9a2b6ad87bfb
+      internalID: -7715541315942635833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1713
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb5ee5fdc4453b479cb51101c33875a
+      internalID: 7996255073698195523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1543
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a7910a172c4e24385adafea5cdc0f3
+      internalID: -8213840392369348553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1543
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55751bd32d27849a38346958e63cee
+      internalID: 8819594403193971664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a130945ab11a14ca48bcdbcae66c33
+      internalID: -1377213300729967059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1543
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a20890ab4c4f445834170cf43165d3
+      internalID: 8396067901775609076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1543
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8f8d87f9f9e0b4dbe93a5890b99e9d
+      internalID: 7495408311567619007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5d3b5378e993f4d8c243e7eaf8dcf6
+      internalID: 7962889843522654857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb4ab06ebf72ed4992695cd22a9f737
+      internalID: -5276037521949105668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1543
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a147dfd5ee87a24bac281ab58f58143
+      internalID: -3738399493235853413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1543
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204b40a7bf490ce41a50549b5eff0aec
+      internalID: 8484439339186018563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2590e5c4a3b29d142bddf9d8afa4f8d5
+      internalID: -5729440211006493664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1543
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec33a9c36bcb43428d90afaa16bcf35
+      internalID: -1007158638760682247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1543
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02cfd134537db54ca3ebb8b4970f906
+      internalID: 202084931903519923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1543
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1baae8fe87f51c4a98fff65c09ad218
+      internalID: -409604075332108980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1539
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f588fca5bda4d4d97744f4ad118ecf
+      internalID: -8643419088154476241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1543
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d310fb9c859a0b40a2b7ee76bb534de
+      internalID: -2926259944620652161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1543
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f24afe3f67c7e642abf1c446934bc61
+      internalID: -9045748900674774857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1539
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a15f0afc9e1ece43b936e96c85025e6
+      internalID: 5481053425900196328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1543
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d274e4f6b957b42aa4f33a4f99c8c8
+      internalID: 5172946761262600139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b46e7718fe50a24db42df84ab7ad9b4
+      internalID: -3939023306687736015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1543
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0578cbbbfbbc134a83376113f0727a0
+      internalID: 3470507414085024095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1543
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ae26d6596a77449b18b089da197f65
+      internalID: -7364092006891698855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1543
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91157b3fa25a7664284eea12821bcc0d
+      internalID: -8726775340238772692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1543
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2674d3bb7ed0a3449959ac867c78a61
+      internalID: -5021423242352283027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1543
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187dd662af1aea8489476d00d69d2396
+      internalID: 7115163349311207638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1373
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3e928fda9bb32488e61ce76a8f2a10
+      internalID: -2741445898088273039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1373
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130570ce8e75cb47a365a0d38288cab
+      internalID: 1571733255847447035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1373
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ba1972bd92694aab65aa4a386aa72
+      internalID: 8062422062063444863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1373
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be2f0408f1265b4d823fced23912b7d
+      internalID: -8417664438944933015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1373
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba975db15a5336545b157c9dddb3060e
+      internalID: -1509258843732748125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1373
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b88062d4ef0e4d44ba9460072b622b9
+      internalID: 390808149166527520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1373
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2361619752cc094f82e5ca6416f2682
+      internalID: -9160126974386749561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1373
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a4a7e0975f5404b8be07c74092c8f3
+      internalID: -2539370820668754405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1373
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d031c70fff633934884be0b8a5d4e680
+      internalID: -7482614997068064476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1373
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa1f61f86868b49978b2a72be26e79
+      internalID: 1003251548725566669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1373
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c9294b123d6c149bb069c3ccbd202d
+      internalID: -1894924801203777352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1373
+        width: 158
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff0c4a49a4ef49468fd7911289a1801
+      internalID: -3729101358972093961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1373
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cf2a8e6762825468f07cd786f80ad9
+      internalID: -7060595144412913508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1373
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51798020418b9024b9af72b8cb1aa924
+      internalID: 451485854778589853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1373
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624deccfa1fb078499fef2e2c8232a27
+      internalID: 5079441904737987733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1373
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d82a8e829af84cba6bed801e7343a
+      internalID: 54572895453399210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1373
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83c4aaacf6add4cb7ca17c399e55f9
+      internalID: -6543782056677581004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1373
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fe391b831376f4b884bcb1b7359580
+      internalID: -5134567958893468511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1373
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cda2b5baf60ce46b333b282e363615
+      internalID: -2474268674113729838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1373
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e6e280b39ff046aa6d7e70c2f5ed3
+      internalID: -2347212845765413327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1373
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ce9d47598193f4b94a49c2f26081b1
+      internalID: -6023334786804971241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1373
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e24bc710521614bb648f7f45bae521
+      internalID: -4218268229946954788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1373
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5276289114abf7499fad01e312cae71
+      internalID: 8397413180859250363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1203
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef2d9bf0629a894ba4f1c807bdcafe5
+      internalID: 837419053236760402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1203
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee0f33365514cb4f8867950f24b1b81
+      internalID: -7781881393507862131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7d9d5d7115ccc4b84134dbee0bb24b
+      internalID: -305265006996917045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1203
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d73cf964479f148a01f6a544121d02
+      internalID: -8799516850751616474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1203
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014f206250156444a0a081c31018ea2
+      internalID: -1128824460530925517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d97b18db798d640b22c9e117a67102
+      internalID: 6899202604662967746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9e7738f5e1df6428d8db3b32a53147
+      internalID: -6960348787422864445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1203
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23e562737cfdca40a53215f09fa432d
+      internalID: -220405658597931309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1203
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18182691388786b49b5befd5c1476b47
+      internalID: -625711776775621718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fb9e5f35ada7442997822fa8696bdb
+      internalID: 5635016400108619720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1203
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16f0c155d0460a4d95f20f82cffb4a8
+      internalID: -4519234982433365547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1203
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fa0bb9609dcb47b1d14ee31513596
+      internalID: 2453731547661603591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1203
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0917da64987711e43a14bf3fdad64560
+      internalID: 1131943986528347377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1199
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ff4dd6149948c48a958906c1fc9445
+      internalID: 9071506638776402714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1203
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e23ad7fc0eeb444bd4860e8335f657
+      internalID: -6991951387722615853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1203
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bb16cbfff0cb44c99bd37047f3d845
+      internalID: -3735418128709046889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1199
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e4b3780764e2479797173faf1355c
+      internalID: -5182725337817492343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1203
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611a0e7224745a442bdb513de9487955
+      internalID: -7237051328085283103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306b7a280d768bf42a678ff0da19ee8f
+      internalID: -3567626228089271920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1203
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96950804fb4c2d84bb52fa848abfe91c
+      internalID: 5123377973269489473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1203
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf3630408067f04790eedc1e6cc2418
+      internalID: 2282159679987007071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1203
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df057774b73908647b1e3f63273c4f77
+      internalID: -116952566736546139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1203
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef96c7cad2a9c454da7f1c9854b420c7
+      internalID: 2239710727968806557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_117
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1203
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1b35ea2973a0a458c0ce55ca566d5c
+      internalID: -7588329028787382874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_118
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1033
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fa57ac52bd6594992a38925fbdefda
+      internalID: -7258376496645211577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_119
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1033
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60260303811008d47a81d11429c8b16a
+      internalID: 1553936584017621918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_120
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1033
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139291efba8542342b89c1bd4c0cf085
+      internalID: 3077426722801275316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_121
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1033
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf321cd8a2c09654183b1dc72f65ed49
+      internalID: -8602481419780779443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_122
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1033
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994dd1e8f9bed94f99c9b14f6b43eea
+      internalID: 7203048994718838738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_123
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1033
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e49eab3181db488e9444a95f6b2a3
+      internalID: 834271731333490967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_124
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1033
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cbbf733ccd3864dbf334dae928aba1
+      internalID: 6728939306180419690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_125
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1033
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88cbbd2cd7193140a0e0839bf5ad03a
+      internalID: 4701589848266552802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_126
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1033
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d287b6c5df340b446a28a2f72a8aa1fa
+      internalID: -6871412745027610147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_127
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1033
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782f944d281ad28419c19811f2a60940
+      internalID: -5895323191754674915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_128
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1033
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78110198fbfd73c4eb04ec4ceb41b26a
+      internalID: 4937128670720413172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_129
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1033
+        width: 158
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168a049081fd1ad4d96173a193fcd471
+      internalID: 8197989777308113681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_130
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1033
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f71fa04301424449ff6592623e371c
+      internalID: 7529485492387257302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_131
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1033
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b55cfc701e21404497727ac6929c12c
+      internalID: 3490183882212503036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_132
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1033
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b8088d89722b74da78e6155f5d2f9f
+      internalID: -6094286184977178252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_133
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1033
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f13bc93de5a7c449e3dea46c1cf439
+      internalID: 3467072453949653075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_134
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1033
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0b39c7181ace44a8b06fa2bd695607
+      internalID: -2476199416660096377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_135
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1033
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcf2dbf5943ac745afe1449e5e2268c
+      internalID: 4626834254114556015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_136
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1033
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976cd650ab241b743874d4555af42a8b
+      internalID: 4526954683215667339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_137
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1033
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219d864a627a5ea48a85487770deb371
+      internalID: -4644607496621487565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_138
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1033
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914886fdc5475794c974bd0f8bf9738c
+      internalID: -4449036977200541152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_139
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1033
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87112d35f4e4bf649bc7bb5893bc63b0
+      internalID: -389939254012221172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_140
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1033
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbc02353f630ed45a4c869711aa528a
+      internalID: -980579477180420046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_141
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 863
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c8949c1fcc7154487369e92808725a
+      internalID: -1717583315043182612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_142
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 863
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a29f6a13cef0e447812d0706495ddd2
+      internalID: 918210869052042734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_143
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdefa93355ef4f49be1f995ef757950
+      internalID: 9026674627144826490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_144
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 863
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88ae19d2c99df84ea01b880a5a06236
+      internalID: 6023418841776660961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_145
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 863
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de34ac5e7a884724298bf415835a8408
+      internalID: -4920866467658207756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_146
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2766e51edc2478429a3fb8b4af89716
+      internalID: 3999472167633338883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_147
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61462c211d285eb47a5c33ee9ae4647c
+      internalID: -6248190945948932584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_148
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 863
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c2872214d4d0f438183e364c2166fe
+      internalID: -402334960195482852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_149
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 863
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1ea7736c19af8469bc74cba3789f7d
+      internalID: -4304578061264209350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_150
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58257e6c032f9364b80f0e01637214ed
+      internalID: 4468413657048369997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_151
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 863
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5e18f7dbecb3c45a3b55daa4f7dd0c
+      internalID: 4308133281949340950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_152
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 863
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93037920712e9364394623301223c79e
+      internalID: 2542708038753940391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_153
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 863
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6728ee1a765a149bbc1c35230d8d60
+      internalID: -5477948510066387271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_154
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 859
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e53c41032a80e45aabd0aba0ee4ab2
+      internalID: -1832660019476662887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_155
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 863
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87eba4573f85a44ac84f87761208a1
+      internalID: 8647337488482107606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_156
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 863
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4dcd3cca61d474c9322fe2538f2df9
+      internalID: 8799605572642587116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_157
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 859
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc52197d25d6d94993624ef333799ce
+      internalID: 1822002707656938263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_158
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 863
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc89cba745948644e8164189df883be4
+      internalID: -3354097968942278742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_159
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6251feb87122f914db7b63220c752383
+      internalID: -4007856190478478128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_160
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 863
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2852c79c41a0066489960e49c5abc9ce
+      internalID: -8057556800512214959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_161
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 863
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450785fbd1e2ceb478d3662f7a2f3ccd
+      internalID: -2959198813233138510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_162
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 863
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a057ee6ceb6c0340a52143f0aafa5b5
+      internalID: -2770868156901358128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_163
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 863
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6ca5b6b8f003142ac3f59069dfcf7e
+      internalID: -5364206449063978637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_164
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 863
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980666995bd802c4989f62c596469c9c
+      internalID: 4964387165173053539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_165
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 693
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f5456e00ad5c49bbf47b15bf1bd17
+      internalID: 8637727742815836106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_166
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 693
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d978124617bd7844b3efd0a02c1e4ab
+      internalID: -2292595109527770054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_167
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 693
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438ecd7182220f046a350836f967d750
+      internalID: 1134702038709453069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_168
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 693
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81828b6fb99c82649a5f9922915b11ff
+      internalID: -6614586023269295684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_169
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 693
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb1b7a56a6b5f64f880fe85ada06656
+      internalID: -1746921445570784541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_170
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 693
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38613b4883459dd4e83a073fb575efea
+      internalID: 653961127852773816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_171
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 693
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910e76f8b968e444e9b4ad61afbeeafa
+      internalID: -8873477525715780422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_172
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 693
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a3968c5526f61458f42a152b9db125
+      internalID: -1678177653357913911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_173
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 693
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a7f017aefe82449b54e97343ae07d6
+      internalID: -3970751693405698336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_174
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 693
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb5ae6ab4323d14ba3c98fabbd9bbe7
+      internalID: -5077743516512909427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_175
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 693
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0a454986992cd4aaaa00158f44dbcd
+      internalID: -1201032030401161329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_176
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 693
+        width: 158
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d8552609912704fbfbd1d0994a550c
+      internalID: 4863046348786992941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_177
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 693
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e3cadcc672c494bae42f999898390e
+      internalID: 1631981551934754563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_178
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 693
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f2c4af20b4b0a4d946d1871287a85a
+      internalID: -4114273074364459422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_179
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 693
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cd8d8a44964254780da1fefc272c68
+      internalID: 3447706418560308997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_180
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 693
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc34df56677ec674e87c4241ca550829
+      internalID: 6450844017832654676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_181
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 693
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7eefbea4abb3047983f7c1a3be22a8
+      internalID: 985510398637729616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_182
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 693
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100aa685844c6884da02e38a7d5ef52c
+      internalID: -1228966544384593224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_183
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 693
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a5d866ae3f8c4097480dbb096e9c4
+      internalID: 2450757457482013330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_184
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 693
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27cde3460092c542ac082d3983e458d
+      internalID: 1062923657852271696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_185
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 693
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f0c0182ef74a942b1851b427f89293
+      internalID: -2552260551044621060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_186
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 693
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b6505d7283e494f8e643523fe79907
+      internalID: -1751025900832202986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_187
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 693
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6fb57063423314eafc303a7abff197
+      internalID: 6157913358699745602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_188
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 523
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d44da4f0c0cfb64ea008fc22a2227f8
+      internalID: -1390548840407797562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_189
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 523
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3fc54496a780d4c8f561ffa50b211f
+      internalID: -2412429238432842988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_190
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6050c1ab88aec044eb0d4fed883756a4
+      internalID: -6075112649999562105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_191
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 523
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7db3f1a199b20240b9dd5fc9d3747b6
+      internalID: -2189652288888346921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_192
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 523
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bc0b416067ee84fa3696972bd993eb
+      internalID: -2482301929857582614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_193
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8168eea570962a408aa25bd21e963ab
+      internalID: 7044129909265666646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_194
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b29cf377f073340af2aa5adfe7ef0d
+      internalID: -4806148569626225137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_195
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 523
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083a32f5b8d5c9b4385588650c36bd13
+      internalID: 5367368712982585735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_196
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 523
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66764c4486fc9e64998fcd084704c652
+      internalID: 8267938681391387272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_197
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc481de075f67f4abf1a9f8addce5d3
+      internalID: -8051565000715345992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_198
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 523
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c0ed53c9c49d449764a494b6b9a63
+      internalID: 2722173985333710652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_199
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 523
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0099fecfb167a4ea09c41f999646f6
+      internalID: -2935680463104239355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_200
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 523
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3565b2dc8bece94ca88a77bd8d13cf1
+      internalID: 1554638973714467684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_201
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 519
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a880921e2f7dc14a8eb9a3bed658dd7
+      internalID: 847356485389812307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_202
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 523
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51b9b1fb127d340b239c18752cd1a8
+      internalID: -9112343412160782712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_203
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 523
+        width: 83
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc3dfb8f9242ed4bad3964586707c92
+      internalID: 6295500877915775200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_204
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 519
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400e533d23f4e84cbcea80e526099fb
+      internalID: 284533032515928891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_205
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 523
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5f6892f6c7db4c94e89e600e955d5
+      internalID: -2709147430181760341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_206
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e791d74c6c58949a0fc6ba613bafc6
+      internalID: 4296909163557500163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_207
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 523
+        width: 74
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956af019d460ba14f917495220bd8480
+      internalID: -7956326346488110585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_208
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 523
+        width: 69
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ff135a60a612949ae3962b168b9e93
+      internalID: -3518913839502644021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_209
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 523
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd25c463ed169488928cbeabac5651
+      internalID: 7468636863102787641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_210
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 523
+        width: 71
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd883cb46070cfc4487f92909d3e5476
+      internalID: 6469621405554282664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_211
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 523
+        width: 73
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddb824d90b2ff948bb3b01d332eee4e
+      internalID: 3346990364024752750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_212
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 353
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6b810e0984b04bb36cb23ff128657
+      internalID: -8890229507563073268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_213
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 353
+        width: 73
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8ed7b6c8fcaf74ca8e032ed32bd2d7
+      internalID: -4410609077042269681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_214
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 353
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe49e0963d9afa41bca7f4ef808e9b2
+      internalID: 3314059968265706428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_215
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 353
+        width: 66
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9c6b5ab614a8d4ba8b54e7a06311db
+      internalID: -3158504194291701306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_216
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 353
+        width: 72
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ae04219db9f3b4280bf82c601fdeba
+      internalID: 8228368818523002069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_217
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 353
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f276589b2aa74a933350337ac9fc4
+      internalID: -8853165777978992470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_218
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 353
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7448621e6fc81d746a3fa1b5c7780a65
+      internalID: 4129213889016185096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_219
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 353
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596998e10e917814d96c4651b18c71af
+      internalID: -5226710532565496612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_220
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 353
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7c93dd44e2f574daa48f62f0cbe7bf
+      internalID: 8825338782526181335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_221
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 353
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29debb13f6a91141af73780030a6fab
+      internalID: 927676449213006086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_222
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 353
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c800a2e7a601e46af743c62172e553
+      internalID: -9199857191713581471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_223
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 353
+        width: 158
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20a3ab1889da548ae8ae15d311bb70
+      internalID: 5919705166286078756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_224
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 353
+        width: 80
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375e1ddd023132b42989b6612b4db1a5
+      internalID: -7424735678220308331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_225
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 353
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1182cc7616a4d504c81350e7a7e7923a
+      internalID: 7604074329768901076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_226
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 353
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d3555e36ca584a8f3504f100d4f90
+      internalID: 9207536714584470806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_227
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 353
+        width: 79
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef822471b9f9e3a4a9b6eee077196a7e
+      internalID: 2047193636475374004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_228
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 353
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e5efb163da2c14a9d6eb5e06697c79
+      internalID: -1149783809522296516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_229
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 353
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd1124faec8364cace71caca6a5392
+      internalID: -5281606428327494110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_230
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 353
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9046432fd8340469b7e2ed0a8c1788
+      internalID: -4605976842868825725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_231
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 353
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78cc89c9f73b394c851ea88b308db1b
+      internalID: 9174267814750035417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_232
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 353
+        width: 83
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a938226b42d97b6459fe7a43136455c1
+      internalID: 6953186754832336465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_233
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 353
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dff5798e94f8044282ef8a793bbd318
+      internalID: 1387596347275294908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_234
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 353
+        width: 83
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6589f40630e6147459bab1484387079d
+      internalID: -5294078533742670484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_235
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee3a1b53f3fb3c4e8ff6854df20db2a
+      internalID: 7013982993195729694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_236
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ec753566e8174092dfe4b84cfdefe
+      internalID: 5137500211929331285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_237
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 183
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ecaa315e5646340b90e0fa16ebec85
+      internalID: 6029309875069977871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_238
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff888a0484894b419d7eb04d24ffd66
+      internalID: -4193566499332826269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_239
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e0505253790745824454e725e26c1
+      internalID: 2800344763525546620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_240
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0574fd3058d0b0d47b635fa413d2f03f
+      internalID: -7496742683827808995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_241
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae7bed0c74e079409ceff4c413dec2f
+      internalID: 3911222827589148643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_242
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 183
+        width: 83
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a822f034404554ca0741b0d1288a51
+      internalID: 1566832909965331013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_243
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f0739a6dcacda43afaaa01c77a499a
+      internalID: 1082427054314196583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_244
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c20d7bd36f91448fd7a63b29b99d8
+      internalID: -2051420640122493301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_245
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 183
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c8d9bc9f119704291ecb1c1192a3de
+      internalID: -2904322708225426243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_246
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbd047df3e32924190609ef760e4b5d
+      internalID: 508498009937139685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_247
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eac55ec0725078409878d1cceabbf88
+      internalID: -3141688882695792076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_248
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e6826a765d8a044ba858ad9a6295d1
+      internalID: -5091822525067122678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_249
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dab29d31520694ca2157840d1196b4
+      internalID: -1026228510300313737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_250
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 183
+        width: 83
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7532e6fcc66a49911c0c1263cfb3a
+      internalID: 6453489814506925095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_251
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6bcb6337e8d284db9bce448b435b07
+      internalID: 3441157027740250840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_252
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45c625290e179449a87ba6cb5f77cd1
+      internalID: -1737879353581977356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_253
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 183
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092a5a11901ef3a41a975c0f595d4a24
+      internalID: -4865662660105879816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_254
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 183
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7b5298a0f964a40b2a0ca9505aaa41
+      internalID: 6330033206374813043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_255
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 183
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c656d677683373644aa02283295063d5
+      internalID: -8299640444151534445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_256
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8304ec3abfcee4bafad7c92935ac3d
+      internalID: -6064765407300384834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_257
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 183
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dcc859e5ac2c646ad77c4fee8c0639
+      internalID: 4605462434726888822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_258
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 183
+        width: 83
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da49ff1a6f612e4c9363e49c1128213
+      internalID: -4206427105130363754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_259
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 13
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d898c74004f0e469728b539c982ee7
+      internalID: -6699150938041442980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_260
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 13
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c2d16770dec9c4fa344168fcfa7af8
+      internalID: -5767767365064416777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_261
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 13
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7695aa52cd4aa5499cdce1ef3314de3
+      internalID: -270125323418660324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_262
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 13
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a9e393fd970941a53e15a8fe93147
+      internalID: 3796013268619593306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_263
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 13
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8de3a6752bbf4640b01f87a4c6b2b6e
+      internalID: 6240493356515380867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_264
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 13
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185aba19217109346900cf72b88e5db3
+      internalID: 7734264332692790363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_265
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 13
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b29491928ac1e449ba1bac96c4c06d0
+      internalID: 373886598868916690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_266
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 13
+        width: 83
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d1cd902fbeea47acd2b576f3f9781
+      internalID: 7086691057534258937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_267
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 13
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1256c04916752e244a326950927693f3
+      internalID: -6350031720812800699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_268
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 13
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3508867a6cba9344eb69c4405bc85404
+      internalID: -1552101982938053477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_269
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 13
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f91c0cd4a7197342a2f5add4976dc2d
+      internalID: 8122122860348892013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_270
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 13
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d935fab3873ec484a8583e3c805d65c6
+      internalID: -5008477828866875305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_271
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 13
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e5032cba3d9c4f8cf9da7b469e9b2
+      internalID: -5414911490510529877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_272
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 13
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb723b1283c2c634e9a360d76251b996
+      internalID: -7703569861514277624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_273
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 13
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f29bacbe663d5418104b315270b326
+      internalID: -6693626911761864599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaghetti_atlas_274
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 13
+        width: 83
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b166c55a73d2d9648a123d35da1ce69d
+      internalID: -4997599180121485627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

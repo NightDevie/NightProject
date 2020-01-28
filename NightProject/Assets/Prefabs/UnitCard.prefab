@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 8197569010816945236}
   - component: {fileID: 8197569010816945243}
   - component: {fileID: 8197569010816945242}
+  - component: {fileID: 1462783985525374063}
   m_Layer: 5
   m_Name: UnitCard
   m_TagString: Untagged
@@ -389,6 +390,22 @@ MonoBehaviour:
   damageText: {fileID: 8197569010208770900}
   unitAmountText: {fileID: 8197569010444658517}
   amount: 0
+--- !u!114 &1462783985525374063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197569010816945240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa89196e4afe08940aa664a15d919385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitsInventory: {fileID: 11400000, guid: 01f55ad35c133bd4d970e3a8e317f837, type: 2}
+  unitPrefab: {fileID: 8197569010816945240}
+  parentObject: {fileID: 8656949726603823280, guid: 8bcb48c3c96efb84192de5c1a2ec3bd6,
+    type: 3}
 --- !u!1 &8197569011193383708
 GameObject:
   m_ObjectHideFlags: 0
