@@ -405,7 +405,7 @@ MonoBehaviour:
   unitsInventory: {fileID: 11400000, guid: 01f55ad35c133bd4d970e3a8e317f837, type: 2}
   unitPrefab: {fileID: 3771195031261580936, guid: 29a93f61d7ba2c345a7f3a7e3d0679f0,
     type: 3}
-  platformPrefab: {fileID: 8436926501399948139, guid: cf2c3aa70721f7447a3284b2a7ef258b,
+  parentPrefab: {fileID: 8436926501399948139, guid: cf2c3aa70721f7447a3284b2a7ef258b,
     type: 3}
   parentObject: {fileID: 8436926501399948139, guid: cf2c3aa70721f7447a3284b2a7ef258b,
     type: 3}

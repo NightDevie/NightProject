@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : MonoBehaviour, ISelectable
+public class Unit : MonoBehaviour, ISelectUnit
 {
     public string unitName;
     
@@ -33,7 +33,7 @@ public class Unit : MonoBehaviour, ISelectable
     }
 #endif
 
-    public GameObject Selected()
+    public GameObject SelectedUnit()
     {
         return gameObject;
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ISelectable
+public interface ISelectUnit
 {
-    GameObject Selected();
+    GameObject SelectedUnit();
 }
