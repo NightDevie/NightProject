@@ -9,6 +9,11 @@ public class BattleManager : MonoBehaviour
 
     private void Update()
     {
+        SelectUnit();
+    }
+
+    private void SelectUnit()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);

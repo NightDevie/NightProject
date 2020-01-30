@@ -7,8 +7,10 @@ public class InstantiateUnit : MonoBehaviour
 {
     public UnitsInventory unitsInventory;
     public GameObject unitPrefab;
+    public GameObject platformPrefab;
     public GameObject parentObject;
     private Button button;
+    private BattleManager battleManager;
 
     private void Start()
     {
@@ -18,11 +20,14 @@ public class InstantiateUnit : MonoBehaviour
 
     public void InstantiatePrefab(int index)
     {
-        GameObject instantiatedPrefab;
-        instantiatedPrefab = Instantiate(unitPrefab, parentObject.transform);
+        GameObject instantiatedPlatformPrefab;
+        GameObject instantiatedUnitPrefab;
 
-        Unit unit = instantiatedPrefab.gameObject.GetComponent<Unit>();
-        instantiatedPrefab.name = "[" + index + "]" + unit.unitName;
+        instantiatedPlatformPrefab = Instantiate(platformPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        instantiatedUnitPrefab = Instantiate(unitPrefab, instantiatedPlatformPrefab.transform);
+
+        Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
+        instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitName;
         Debug.Log("Instantiated");
     }
 }
