@@ -12,6 +12,11 @@ public class InstantiateUnit : MonoBehaviour
     private Button button;
     private BattleManager battleManager;
 
+    private void Awake()
+    {
+        battleManager = GameObject.Find("Player").GetComponent<BattleManager>();
+    }
+
     private void Start()
     {
         button = GetComponent<Button>();
@@ -23,11 +28,16 @@ public class InstantiateUnit : MonoBehaviour
         GameObject selectedPlatform;
         GameObject instantiatedUnitPrefab;
 
-        selectedPlatform = Instantiate(parentPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        Debug.Log(battleManager.selectedParent.name);
+        selectedPlatform = battleManager.selectedParent;
         instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
 
         Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
-        instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitName;
+        Unit cardUnit = GetComponent<Unit>();
+        unit.SetUnitData(cardUnit.unitData);
+        unit.SetUnitAmount(cardUnit.unitAmount);
+
+        instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.getUnitName();
         Debug.Log("Instantiated");
     }
 }

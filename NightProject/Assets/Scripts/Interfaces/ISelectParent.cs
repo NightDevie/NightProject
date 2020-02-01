@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ISelectParent
 {
-    GameObject SelectedParent();
+    GameObject GetSelectedParent();
 }

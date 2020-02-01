@@ -30,8 +30,8 @@ public class BattleManager : MonoBehaviour
 
                 if (selectable != null)
                 {
-                    selectedUnit = selectable.SelectedUnit();
-                    Debug.Log(selectedUnit.name);
+                    selectedUnit = selectable.GetSelectedUnit();
+                    Debug.Log(selectedUnit.GetComponent<Unit>().unitData.getUnitName());
                     Debug.Log("222Unit");
                 }
             }
@@ -52,7 +52,7 @@ public class BattleManager : MonoBehaviour
 
                 if (selectable != null)
                 {
-                    selectedParent = selectable.SelectedParent();
+                    selectedParent = selectable.GetSelectedParent();
                     Debug.Log(selectedParent.name);
                     Debug.Log("222Parent");
                 }

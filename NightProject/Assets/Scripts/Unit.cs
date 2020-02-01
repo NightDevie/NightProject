@@ -33,7 +33,7 @@ public class Unit : MonoBehaviour, ISelectUnit
     }
 #endif
 
-    public GameObject SelectedUnit()
+    public GameObject GetSelectedUnit()
     {
         return gameObject;
     }

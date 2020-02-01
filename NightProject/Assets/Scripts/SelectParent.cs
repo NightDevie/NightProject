@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SelectParent : MonoBehaviour, ISelectParent
 {
-    public GameObject SelectedParent()
+    public GameObject GetSelectedParent()
     {
         return gameObject;
     }
