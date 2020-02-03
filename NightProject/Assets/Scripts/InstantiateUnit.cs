@@ -25,19 +25,25 @@ public class InstantiateUnit : MonoBehaviour
 
     public void InstantiatePrefab(int index)
     {
-        GameObject selectedPlatform;
-        GameObject instantiatedUnitPrefab;
-
         Debug.Log(battleManager.selectedParent.name);
-        selectedPlatform = battleManager.selectedParent;
-        instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
-
-        Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
+        
         Unit cardUnit = GetComponent<Unit>();
-        unit.SetUnitData(cardUnit.unitData);
-        unit.SetUnitAmount(cardUnit.unitAmount);
+        Debug.Log(cardUnit.unitAmount);
+        if (cardUnit.unitAmount > 0)
+        {
+            GameObject selectedPlatform;
+            GameObject instantiatedUnitPrefab;
 
-        instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.getUnitName();
-        Debug.Log("Instantiated");
+            selectedPlatform = battleManager.selectedParent;
+            instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
+
+            Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
+            unit.SetUnitData(cardUnit.unitData);
+            unit.SetUnitAmount(cardUnit.unitAmount);
+            cardUnit.unitAmount --;
+            
+            instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.getUnitName();
+            Debug.Log("Instantiated");
+        }
     }
 }

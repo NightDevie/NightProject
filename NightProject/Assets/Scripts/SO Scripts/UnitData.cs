@@ -15,10 +15,10 @@ public class UnitData : ScriptableObject
     [SerializeField, FormerlySerializedAs("unitClass")]
     private UnitClass unitClass;
 
-    [SerializeField, FormerlySerializedAs("maxHealth")]
-    private int maxHealth;
+    [SerializeField, FormerlySerializedAs("unitMaxHealth")]
+    private int unitMaxHealth;
 
-    [SerializeField, FormerlySerializedAs("damage")]
+    [SerializeField, FormerlySerializedAs("unitDamage")]
     private int unitDamage;
 
     public string getUnitName()
@@ -38,7 +38,7 @@ public class UnitData : ScriptableObject
 
     public int getMaxHealth()
     {
-        return maxHealth;
+        return unitMaxHealth;
     }
 
     public int getDamage()
