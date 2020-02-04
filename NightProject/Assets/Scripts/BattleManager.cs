@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour
 {
+    [HideInInspector]
     public GameObject selectedUnit;
+    [HideInInspector]
     public GameObject selectedParent;
-    public Unit unit;
+
     public Camera mainCamera;
 
     private void Update()
     {
         // if '' = true
-        SelectParent();
+        SelectUnitParent();
         // if '' = true
         SelectUnit();
     }
@@ -26,20 +28,19 @@ public class BattleManager : MonoBehaviour
 
             if (hit.collider != null)
             {
-                Debug.Log("Unit");
+                Debug.Log("Has Collider");
                 ISelectUnit selectable = hit.collider.GetComponent<ISelectUnit>();
 
                 if (selectable != null)
                 {
-                    selectedUnit = selectable.GetSelectedUnit();
-                    Debug.Log(selectedUnit.GetComponent<Unit>().unitData.getUnitName());
-                    Debug.Log("222Unit");
+                    selectedUnit = selectable.GetSelectedUnit;
+                    Debug.Log("Is Unit " + selectedUnit.GetComponent<Unit>().unitData.UnitName);
                 }
             }
         }
     }
 
-    private void SelectParent()
+    private void SelectUnitParent()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -48,14 +49,13 @@ public class BattleManager : MonoBehaviour
 
             if (hit.collider != null)
             {
-                Debug.Log("Parent");
-                ISelectParent selectable = hit.collider.GetComponent<ISelectParent>();
+                Debug.Log("Has Collider");
+                ISelectUnitParent selectable = hit.collider.GetComponent<ISelectUnitParent>();
 
                 if (selectable != null)
                 {
-                    selectedParent = selectable.GetSelectedParent();
-                    Debug.Log(selectedParent.name);
-                    Debug.Log("222Parent");
+                    selectedParent = selectable.GetSelectedUnitParent;
+                    Debug.Log("Is Parent " + selectedParent.name);
                 }
             }
         }

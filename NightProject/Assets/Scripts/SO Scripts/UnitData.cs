@@ -21,29 +21,25 @@ public class UnitData : ScriptableObject
     [SerializeField, FormerlySerializedAs("unitDamage")]
     private int unitDamage;
 
-    public string getUnitName()
+    public string UnitName
     {
-        return unitName;
+        get { return unitName; }
     }
-
-    public UnitFaction getUnitFaction()
+    public UnitFaction UnitFaction
     {
-        return unitFaction;
+        get { return unitFaction; }
     }
-
-    public UnitClass getUnitClass()
+    public UnitClass UnitClass
     {
-        return unitClass;
+        get { return unitClass; }
     }
-
-    public int getMaxHealth()
+    public int UnitMaxHealth
     {
-        return unitMaxHealth;
+        get { return unitMaxHealth; }
     }
-
-    public int getDamage()
+    public int UnitDamage
     {
-        return unitDamage;
+        get { return unitDamage; }
     }
 
 #if UNITY_EDITOR

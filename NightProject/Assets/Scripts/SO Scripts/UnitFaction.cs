@@ -6,7 +6,9 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "New UnitFaction", menuName = "UnitFaction")]
 public class UnitFaction : ScriptableObject
 {
+    [SerializeField][FormerlySerializedAs("factionName")]
     public string factionName;
+
     public List<UnitClass> factionClasses;
 
     public bool CheckClass(UnitClass unitClass)

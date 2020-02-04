@@ -20,15 +20,13 @@ public class InstantiateUnit : MonoBehaviour
     private void Start()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(() => InstantiatePrefab(1));
+        button.onClick.AddListener(() => InstantiateUnitPrefab(1));
     }
 
-    public void InstantiatePrefab(int index)
+    public void InstantiateUnitPrefab(int index)
     {
-        Debug.Log(battleManager.selectedParent.name);
-        
         Unit cardUnit = GetComponent<Unit>();
-        Debug.Log(cardUnit.unitAmount);
+
         if (cardUnit.unitAmount > 0)
         {
             GameObject selectedPlatform;
@@ -38,12 +36,12 @@ public class InstantiateUnit : MonoBehaviour
             instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
 
             Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
-            unit.SetUnitData(cardUnit.unitData);
-            unit.SetUnitAmount(cardUnit.unitAmount);
+            unit.unitData = cardUnit.unitData;
+            unit.unitAmount = cardUnit.unitAmount;
             cardUnit.unitAmount --;
             
-            instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.getUnitName();
-            Debug.Log("Instantiated");
+            instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.UnitName;
+            Debug.Log("Instantiated " + unit.unitData.UnitName);
         }
     }
 }

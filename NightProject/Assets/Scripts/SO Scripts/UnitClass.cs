@@ -6,6 +6,6 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "New UnitClass", menuName = "UnitClass")]
 public class UnitClass : ScriptableObject
 {
-    [SerializeField][FormerlySerializedAs("unitName")]
+    [SerializeField][FormerlySerializedAs("className")]
     public string className;
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ISelectParent
+public interface ISelectUnitParent
 {
-    GameObject GetSelectedParent();
+    GameObject GetSelectedUnitParent { get; }
 }

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ISelectUnit
 {
-    GameObject GetSelectedUnit();
+    GameObject GetSelectedUnit { get; }
 }

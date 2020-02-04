@@ -37,8 +37,8 @@ public class UnitUI : MonoBehaviour
     public void editorUIUpdate()
     {
         nameText.text = unit.unitName.ToString();
-        healthText.text = unit.maxHealth.ToString();
-        damageText.text = unit.damage.ToString();
+        healthText.text = unit.unitMaxHealth.ToString();
+        damageText.text = unit.unitDamage.ToString();
         unitAmountText.text = unit.unitAmount.ToString();
     }
 #endif

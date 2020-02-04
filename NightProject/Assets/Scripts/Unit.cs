@@ -10,48 +10,51 @@ public class Unit : MonoBehaviour, ISelectUnit
     public UnitFaction unitFaction;
     public UnitClass unitClass;
      
-    public int maxHealth;
-    public int currentHealth;
-    public int damage;
+    public int unitMaxHealth;
+    public int unitCurrentHealth;
+    public int unitDamage;
     public int unitAmount;
     
     void Start()
     {
 #if UNITY_EDITOR
-        UpdateMyVariables();
-        unitData.OnValueChanged += UpdateMyVariables;
+        UpdateUnitVariables();
+        unitData.OnValueChanged += UpdateUnitVariables;
 #endif
     }
 
 #if UNITY_EDITOR
-    void UpdateMyVariables()
+    void UpdateUnitVariables()
     {
-        maxHealth = unitData.getMaxHealth();
-        currentHealth = maxHealth;
-        damage = unitData.getDamage();
-        unitName = unitData.getUnitName();
+        unitMaxHealth = unitData.UnitMaxHealth;
+        unitCurrentHealth = unitMaxHealth;
+        unitDamage = unitData.UnitDamage;
+        unitName = unitData.UnitName;
     }
 #endif
 
-    public GameObject GetSelectedUnit()
+    public GameObject GetSelectedUnit
     {
-        return gameObject;
+        get { return gameObject; }
+    }
+    public UnitData UnitData
+    {
+        get { return unitData; }
+        set { unitData = value; }
+    }
+    public int MaxHealth
+    {
+        get { return unitMaxHealth; }
+        set { unitMaxHealth = value; }
+    }
+    public int UnitAmount
+    {
+        get { return unitAmount; }
+        set { unitAmount = value; }
     }
 
-    public void SetUnitData(UnitData unitData)
-    {
-        this.unitData = unitData;
-    }
-    public void SetMaxHealth(int maxHealth)
-    {
-        this.maxHealth = maxHealth;
-    }
     public void SetCurrentHealth()
     {
-        currentHealth = maxHealth;
-    }
-    public void SetUnitAmount(int unitAmount)
-    {
-        this.unitAmount = unitAmount;
+        unitCurrentHealth = unitMaxHealth;
     }
 }
