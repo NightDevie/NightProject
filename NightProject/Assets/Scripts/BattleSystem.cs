@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BattleManager : MonoBehaviour
+public class BattleSystem : MonoBehaviour
 {
     [HideInInspector]
     public GameObject selectedUnit;
@@ -11,12 +11,25 @@ public class BattleManager : MonoBehaviour
 
     public Camera mainCamera;
 
+    static StartState start;
+    static PlayerTurnState playerTurn;
+    static EnemyTurnState enemyTurn;
+    static WonState won;
+    static LostState lost;
+
+    private State state;
+
     private void Update()
     {
-        // if '' = true
-        SelectUnitParent();
-        // if '' = true
-        SelectUnit();
+        SwitchState(new StartState());
+        state?.Update();
+    }
+
+    public void SwitchState(State newState)
+    {
+        state?.OnExit();
+        state = newState;
+        state?.OnEnter();
     }
 
     private void SelectUnit()

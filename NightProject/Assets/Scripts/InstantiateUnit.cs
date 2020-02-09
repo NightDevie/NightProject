@@ -10,11 +10,11 @@ public class InstantiateUnit : MonoBehaviour
     public GameObject parentPrefab;
     public GameObject parentObject;
     private Button button;
-    private BattleManager battleManager;
+    private BattleSystem battleManager;
 
     private void Awake()
     {
-        battleManager = GameObject.Find("Player").GetComponent<BattleManager>();
+        battleManager = GameObject.Find("Player").GetComponent<BattleSystem>();
     }
 
     private void Start()
