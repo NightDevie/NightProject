@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class State
 {
-    private State state;
+    public BattleSystem battleSystem;
 
+    public virtual void OnStateEnter() { }
     public virtual void Update() { }
     public virtual void HandleInput() { }
-    public virtual void OnEnter() { }
-    public virtual void OnExit() { }
+    public virtual void OnStateExit() { }
 }

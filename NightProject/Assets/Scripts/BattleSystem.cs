@@ -10,67 +10,32 @@ public class BattleSystem : MonoBehaviour
     public GameObject selectedParent;
 
     public Camera mainCamera;
-
     static StartState start;
+    static ChooseFactionState chooseFaction;
+    static ChooseUnitsState chooseUnits;
     static PlayerTurnState playerTurn;
     static EnemyTurnState enemyTurn;
     static WonState won;
     static LostState lost;
 
-    private State state;
+    public BattleSystem battleSystem;
+    public State state;
+
+    private void Start()
+    {
+        SwitchState(new PlayerTurnState());
+        state.battleSystem = this;
+    }
 
     private void Update()
     {
-        SwitchState(new StartState());
         state?.Update();
     }
 
     public void SwitchState(State newState)
     {
-        state?.OnExit();
+        state?.OnStateExit();
         state = newState;
-        state?.OnEnter();
-    }
-
-    private void SelectUnit()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector2 worldPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-
-            if (hit.collider != null)
-            {
-                Debug.Log("Has Collider");
-                ISelectUnit selectable = hit.collider.GetComponent<ISelectUnit>();
-
-                if (selectable != null)
-                {
-                    selectedUnit = selectable.GetSelectedUnit;
-                    Debug.Log("Is Unit " + selectedUnit.GetComponent<Unit>().unitData.UnitName);
-                }
-            }
-        }
-    }
-
-    private void SelectUnitParent()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-
-            if (hit.collider != null)
-            {
-                Debug.Log("Has Collider");
-                ISelectUnitParent selectable = hit.collider.GetComponent<ISelectUnitParent>();
-
-                if (selectable != null)
-                {
-                    selectedParent = selectable.GetSelectedUnitParent;
-                    Debug.Log("Is Parent " + selectedParent.name);
-                }
-            }
-        }
+        state?.OnStateEnter();
     }
 }

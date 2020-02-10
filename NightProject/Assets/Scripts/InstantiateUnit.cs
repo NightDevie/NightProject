@@ -10,11 +10,11 @@ public class InstantiateUnit : MonoBehaviour
     public GameObject parentPrefab;
     public GameObject parentObject;
     private Button button;
-    private BattleSystem battleManager;
+    private BattleSystem battleSystem;
 
     private void Awake()
     {
-        battleManager = GameObject.Find("Player").GetComponent<BattleSystem>();
+        battleSystem = GameObject.Find("Player").GetComponent<BattleSystem>();
     }
 
     private void Start()
@@ -32,7 +32,7 @@ public class InstantiateUnit : MonoBehaviour
             GameObject selectedPlatform;
             GameObject instantiatedUnitPrefab;
 
-            selectedPlatform = battleManager.selectedParent;
+            selectedPlatform = battleSystem.selectedParent;
             instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
 
             Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();

@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LostState : State
+public class ChooseFactionState : State
 {
-    public override void Update()
-    {
-        
-    }
+
 }
