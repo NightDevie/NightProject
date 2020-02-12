@@ -10,15 +10,6 @@ public class BattleSystem : MonoBehaviour
     public GameObject selectedParent;
 
     public Camera mainCamera;
-    static StartState start;
-    static ChooseFactionState chooseFaction;
-    static ChooseUnitsState chooseUnits;
-    static PlayerTurnState playerTurn;
-    static EnemyTurnState enemyTurn;
-    static WonState won;
-    static LostState lost;
-
-    public BattleSystem battleSystem;
     public State state;
 
     private void Start()
