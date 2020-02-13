@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class UnitUI : MonoBehaviour
@@ -10,26 +8,22 @@ public class UnitUI : MonoBehaviour
     public Text nameText;
     public Text healthText;
     public Text damageText;
-    public Text unitAmountText;
-
-    public int amount;
 
 
     void Start()
     {
 #if UNITY_EDITOR
-       EditorUIUpdate();
-       unit.unitData.OnValueChanged += EditorUIUpdate;
+        EditorUnitUIUpdate();
+        unit.UnitData.OnValueChanged += EditorUnitUIUpdate;
 #endif
     }
 
 #if UNITY_EDITOR
-    public void EditorUIUpdate()
+    public void EditorUnitUIUpdate()
     {
-        nameText.text = unit.name.ToString();
-        healthText.text = unit.maxHealth.ToString();
-        damageText.text = unit.damage.ToString();
-        unitAmountText.text = unit.amount.ToString();
+        nameText.text = unit.Name.ToString();
+        healthText.text = unit.CurrentHealth.ToString();
+        damageText.text = unit.Damage.ToString();
     }
 #endif
 }

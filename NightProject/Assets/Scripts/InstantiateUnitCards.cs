@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class InstantiateUnitCards : MonoBehaviour
@@ -50,6 +48,8 @@ public class InstantiateUnitCards : MonoBehaviour
         unit.UnitData = unitsInventory.Items[index].Item;
         unit.Amount = unitsInventory.Items[index].Amount;
 
-        instantiatedPrefab.name = "[" + index + "]" + unit.unitData.UnitName;
+        instantiatedPrefab.name = "[" + index + "]" + unit.UnitData.Name;
+
+        instantiatedPrefab.GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
     }
 }

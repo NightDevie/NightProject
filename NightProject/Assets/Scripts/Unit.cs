@@ -1,21 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Unit : MonoBehaviour, ISelectUnit
 {
-    public new string name;
-    
-    public UnitData unitData;
-    public UnitFaction unitFaction;
-    public UnitClass unitClass;
-     
-    public int maxHealth;
-    public int currentHealth;
-    public int damage;
-    public int amount;
-    public int id;
-    
+    [SerializeField] private new string name;
+    [SerializeField] private UnitData unitData;
+    [SerializeField] private UnitFaction unitFaction;
+    [SerializeField] private UnitClass unitClass;
+
+    [SerializeField] private int maxHealth;
+    [SerializeField] private int currentHealth;
+    [SerializeField] private int damage;
+
+    [SerializeField] private int id;
+
+    private int amount;
+
+
     void Start()
     {
 #if UNITY_EDITOR
@@ -25,15 +25,25 @@ public class Unit : MonoBehaviour, ISelectUnit
     }
 
 #if UNITY_EDITOR
+    public void OnValidate()
+    {
+        GetComponent<UnitUI>()?.EditorUnitUIUpdate();
+        GetComponent<UnitCardUI>()?.EditorUnitCardUIUpdateAmount(Amount);
+    }
     public void UpdateUnitVariables()
     {
-        MaxHealth = unitData.UnitMaxHealth;
-        CurrentHealth = maxHealth;
-        Damage = unitData.UnitDamage;
-        name = unitData.UnitName;
+        Name = unitData.Name;
+        MaxHealth = unitData.MaxHealth;
+        CurrentHealth = MaxHealth;
+        Damage = unitData.Damage;
     }
 #endif
 
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
     public GameObject GetSelectedUnit
     {
         get { return gameObject; }
@@ -42,6 +52,16 @@ public class Unit : MonoBehaviour, ISelectUnit
     {
         get { return unitData; }
         set { unitData = value; }
+    }
+    public UnitFaction UnitFaction
+    {
+        get { return unitFaction; }
+        set { unitFaction = value; }
+    }
+    public UnitClass UnitClass
+    {
+        get { return unitClass; }
+        set { unitClass = value; }
     }
     public int MaxHealth
     {
@@ -62,6 +82,11 @@ public class Unit : MonoBehaviour, ISelectUnit
     {
         get { return amount; }
         set { amount = value; }
+    }
+    public int ID
+    {
+        get { return id; }
+        set { id = value; }
     }
 
     public void SetCurrentHealth()

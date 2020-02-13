@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "New Unit", menuName = "Unit")]
 public class UnitData : ScriptableObject
 {
     [SerializeField, FormerlySerializedAs("unitName")]
-    private string unitName;
+    private new string name;
 
     [SerializeField, FormerlySerializedAs("unitFaction")]
     private UnitFaction unitFaction;
@@ -16,14 +14,14 @@ public class UnitData : ScriptableObject
     private UnitClass unitClass;
 
     [SerializeField, FormerlySerializedAs("unitMaxHealth")]
-    private int unitMaxHealth;
+    private int maxHealth;
 
     [SerializeField, FormerlySerializedAs("unitDamage")]
-    private int unitDamage;
+    private int damage;
 
-    public string UnitName
+    public string Name
     {
-        get { return unitName; }
+        get { return name; }
     }
     public UnitFaction UnitFaction
     {
@@ -33,13 +31,13 @@ public class UnitData : ScriptableObject
     {
         get { return unitClass; }
     }
-    public int UnitMaxHealth
+    public int MaxHealth
     {
-        get { return unitMaxHealth; }
+        get { return maxHealth; }
     }
-    public int UnitDamage
+    public int Damage
     {
-        get { return unitDamage; }
+        get { return damage; }
     }
 
 #if UNITY_EDITOR

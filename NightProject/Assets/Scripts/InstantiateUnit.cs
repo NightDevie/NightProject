@@ -1,15 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class InstantiateUnit : MonoBehaviour
 {
     public UnitsInventory unitsInventory;
     public GameObject unitPrefab;
-    public GameObject parentPrefab;
-    public GameObject parentObject;
-    private Button button;
     private BattleSystem battleSystem;
 
     private void Awake()
@@ -19,6 +14,7 @@ public class InstantiateUnit : MonoBehaviour
 
     private void Start()
     {
+        Button button;
         button = GetComponent<Button>();
         button.onClick.AddListener(() => InstantiateUnitPrefab(1));
     }
@@ -27,7 +23,7 @@ public class InstantiateUnit : MonoBehaviour
     {
         Unit cardUnit = GetComponent<Unit>();
 
-        if (cardUnit.amount > 0)
+        if (cardUnit.Amount > 0)
         {
             GameObject selectedPlatform;
             GameObject instantiatedUnitPrefab;
@@ -37,17 +33,15 @@ public class InstantiateUnit : MonoBehaviour
             cardUnit.Amount --;
 
             Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
-            unit.unitData = cardUnit.unitData;
-            unit.amount = cardUnit.amount;
+            unit.UnitData = cardUnit.UnitData;
+            unit.Amount = cardUnit.Amount;
             
-            instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.UnitName;
+            instantiatedUnitPrefab.name = "[" + index + "]" + unit.UnitData.Name;
 
-            cardUnit.UpdateUnitVariables();
-            cardUnit.GetComponent<UnitUI>().EditorUIUpdate();
-           // unit.UpdateUnitVariables();
-           // unit.GetComponent<UnitUI>().EditorUIUpdate();
+            instantiatedUnitPrefab.GetComponent<UnitUI>().EditorUnitUIUpdate();
+            cardUnit.GetComponent<UnitCardUI>().unitAmountText.text = cardUnit.Amount.ToString();
 
-            Debug.Log("Instantiated " + unit.unitData.UnitName);
+            Debug.Log("Instantiated " + unit.UnitData.Name);
         }
     }
 }

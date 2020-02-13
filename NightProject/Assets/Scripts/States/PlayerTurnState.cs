@@ -34,7 +34,7 @@ public class PlayerTurnState : State
         if (selectable != null)
         {
             battleSystem.selectedUnit = selectable.GetSelectedUnit;
-            Debug.Log("Is Unit " + battleSystem.selectedUnit.GetComponent<Unit>().unitData.UnitName);
+            Debug.Log("Is Unit " + battleSystem.selectedUnit.GetComponent<Unit>().UnitData.Name);
         }
     }
 
