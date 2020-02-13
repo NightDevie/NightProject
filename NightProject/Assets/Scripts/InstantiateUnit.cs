@@ -27,20 +27,26 @@ public class InstantiateUnit : MonoBehaviour
     {
         Unit cardUnit = GetComponent<Unit>();
 
-        if (cardUnit.unitAmount > 0)
+        if (cardUnit.amount > 0)
         {
             GameObject selectedPlatform;
             GameObject instantiatedUnitPrefab;
 
             selectedPlatform = battleSystem.selectedParent;
             instantiatedUnitPrefab = Instantiate(unitPrefab, selectedPlatform.transform);
+            cardUnit.Amount --;
 
             Unit unit = instantiatedUnitPrefab.gameObject.GetComponent<Unit>();
             unit.unitData = cardUnit.unitData;
-            unit.unitAmount = cardUnit.unitAmount;
-            cardUnit.unitAmount --;
+            unit.amount = cardUnit.amount;
             
             instantiatedUnitPrefab.name = "[" + index + "]" + unit.unitData.UnitName;
+
+            cardUnit.UpdateUnitVariables();
+            cardUnit.GetComponent<UnitUI>().EditorUIUpdate();
+           // unit.UpdateUnitVariables();
+           // unit.GetComponent<UnitUI>().EditorUIUpdate();
+
             Debug.Log("Instantiated " + unit.unitData.UnitName);
         }
     }

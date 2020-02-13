@@ -48,7 +48,7 @@ public class InstantiateUnitCards : MonoBehaviour
         
         Unit unit = instantiatedPrefab.gameObject.GetComponent<Unit>();
         unit.UnitData = unitsInventory.Items[index].Item;
-        unit.UnitAmount = unitsInventory.Items[index].Amount;
+        unit.Amount = unitsInventory.Items[index].Amount;
 
         instantiatedPrefab.name = "[" + index + "]" + unit.unitData.UnitName;
     }

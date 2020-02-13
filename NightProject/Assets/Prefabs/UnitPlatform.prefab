@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8436926501399948138}
   - component: {fileID: -9175908965723450044}
   - component: {fileID: -2168416270850228072}
+  - component: {fileID: 1934131625264356052}
   m_Layer: 0
   m_Name: UnitPlatform
   m_TagString: Untagged
@@ -36,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0.072000004}
-  m_SizeDelta: {x: 2.16, y: 1.44}
+  m_SizeDelta: {x: 216, y: 144}
   m_Pivot: {x: 0.5, y: 0.05}
 --- !u!212 &8436926501399948138
 SpriteRenderer:
@@ -231,3 +232,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053413524bf00c346991ec1b947290cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!222 &1934131625264356052
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436926501399948139}
+  m_CullTransparentMesh: 0

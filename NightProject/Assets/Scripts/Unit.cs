@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour, ISelectUnit
 {
-    public string unitName;
+    public new string name;
     
     public UnitData unitData;
     public UnitFaction unitFaction;
     public UnitClass unitClass;
      
-    public int unitMaxHealth;
-    public int unitCurrentHealth;
-    public int unitDamage;
-    public int unitAmount;
+    public int maxHealth;
+    public int currentHealth;
+    public int damage;
+    public int amount;
+    public int id;
     
     void Start()
     {
@@ -24,12 +25,12 @@ public class Unit : MonoBehaviour, ISelectUnit
     }
 
 #if UNITY_EDITOR
-    void UpdateUnitVariables()
+    public void UpdateUnitVariables()
     {
-        unitMaxHealth = unitData.UnitMaxHealth;
-        unitCurrentHealth = unitMaxHealth;
-        unitDamage = unitData.UnitDamage;
-        unitName = unitData.UnitName;
+        MaxHealth = unitData.UnitMaxHealth;
+        CurrentHealth = maxHealth;
+        Damage = unitData.UnitDamage;
+        name = unitData.UnitName;
     }
 #endif
 
@@ -44,17 +45,27 @@ public class Unit : MonoBehaviour, ISelectUnit
     }
     public int MaxHealth
     {
-        get { return unitMaxHealth; }
-        set { unitMaxHealth = value; }
+        get { return maxHealth; }
+        set { maxHealth = value; }
     }
-    public int UnitAmount
+    public int CurrentHealth
     {
-        get { return unitAmount; }
-        set { unitAmount = value; }
+        get { return currentHealth; }
+        set { currentHealth = value; }
+    }
+    public int Damage
+    {
+        get { return damage; }
+        set { damage = value; }
+    }
+    public int Amount
+    {
+        get { return amount; }
+        set { amount = value; }
     }
 
     public void SetCurrentHealth()
     {
-        unitCurrentHealth = unitMaxHealth;
+        currentHealth = maxHealth;
     }
 }

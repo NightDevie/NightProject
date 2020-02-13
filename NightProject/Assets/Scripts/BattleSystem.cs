@@ -10,7 +10,7 @@ public class BattleSystem : MonoBehaviour
     public GameObject selectedParent;
 
     public Camera mainCamera;
-    public State state;
+    private State state;
 
     private void Start()
     {

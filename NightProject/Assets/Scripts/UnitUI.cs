@@ -14,32 +14,22 @@ public class UnitUI : MonoBehaviour
 
     public int amount;
 
-    // Start is called before the first frame update
+
     void Start()
     {
 #if UNITY_EDITOR
-        editorUIUpdate();
-        unit.unitData.OnValueChanged += editorUIUpdate;
+       EditorUIUpdate();
+       unit.unitData.OnValueChanged += EditorUIUpdate;
 #endif
     }
 
-    public void UIUpdateUnitHealth()
-    {
-
-    }
-
-    public void UIUpdateUnitAmount()
-    {
-        
-    }
-
 #if UNITY_EDITOR
-    public void editorUIUpdate()
+    public void EditorUIUpdate()
     {
-        nameText.text = unit.unitName.ToString();
-        healthText.text = unit.unitMaxHealth.ToString();
-        damageText.text = unit.unitDamage.ToString();
-        unitAmountText.text = unit.unitAmount.ToString();
+        nameText.text = unit.name.ToString();
+        healthText.text = unit.maxHealth.ToString();
+        damageText.text = unit.damage.ToString();
+        unitAmountText.text = unit.amount.ToString();
     }
 #endif
 }

@@ -19,17 +19,16 @@ public class PlayerTurnState : State
 
             if (raycastHit2D.collider != null)
             {
+                Debug.Log("Has Collider");
                 SelectUnit(raycastHit2D);
                 SelectUnitParent(raycastHit2D);
 
             }
         }
-
     }
 
     private void SelectUnit(RaycastHit2D raycastHit2D)
     {
-        Debug.Log("Has Collider");
         ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
 
         if (selectable != null)
@@ -41,7 +40,6 @@ public class PlayerTurnState : State
 
     private void SelectUnitParent(RaycastHit2D raycastHit2D)
     {
-        Debug.Log("Has Collider");
         ISelectUnitParent selectable = raycastHit2D.collider.GetComponent<ISelectUnitParent>();
 
         if (selectable != null)
