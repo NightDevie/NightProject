@@ -12,7 +12,7 @@ public class InstantiateUnitCards : MonoBehaviour
 
     void Start()
     {
-        AddListeners();
+        //AddListeners();
     }
     
     public void AddListeners()
@@ -43,13 +43,12 @@ public class InstantiateUnitCards : MonoBehaviour
     public void InstantiateUnitCardPrefab(int index)
     {
         GameObject instantiatedPrefab = Instantiate(unitCardPrefab, parentObject.transform);
-        
         Unit unit = instantiatedPrefab.gameObject.GetComponent<Unit>();
+        
         unit.UnitData = unitsInventory.Items[index].Item;
         unit.Amount = unitsInventory.Items[index].Amount;
 
         instantiatedPrefab.name = "[" + index + "]" + unit.UnitData.Name;
-
         instantiatedPrefab.GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
     }
 }

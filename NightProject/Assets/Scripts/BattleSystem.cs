@@ -8,23 +8,27 @@ public class BattleSystem : MonoBehaviour
     public GameObject selectedParent;
 
     public Camera mainCamera;
+    public InstantiateUnitCards instantiateUnitCards;
+
     private State state;
 
     private void Start()
     {
-        SwitchState(new PlayerTurnState());
+        state = new StartState();
         state.battleSystem = this;
+        state?.OnStateEnter();
     }
 
     private void Update()
     {
         state?.Update();
     }
-
+    
     public void SwitchState(State newState)
     {
         state?.OnStateExit();
         state = newState;
+        state.battleSystem = this;
         state?.OnStateEnter();
     }
 }
