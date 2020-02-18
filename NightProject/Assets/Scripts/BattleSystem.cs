@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class BattleSystem : MonoBehaviour
 
     public Camera mainCamera;
     public InstantiateUnitCards instantiateUnitCards;
+    public GameObject alliedUnitPlatforms;
+    public GameObject startFight;
+    public GameObject unitCards;
 
     private State state;
 
@@ -23,7 +27,7 @@ public class BattleSystem : MonoBehaviour
     {
         state?.Update();
     }
-    
+
     public void SwitchState(State newState)
     {
         state?.OnStateExit();

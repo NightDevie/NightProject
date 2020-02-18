@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class LostState : State
 {
-    public override void Update()
-    {
-        
-    }
+
 }

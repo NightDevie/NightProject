@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 1.8841553}
   m_SizeDelta: {x: 2.56, y: 5.12}
-  m_Pivot: {x: 0.5, y: 0.5000086}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &8436926501399948138
 SpriteRenderer:
   m_ObjectHideFlags: 0

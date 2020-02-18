@@ -10,20 +10,6 @@ public class InstantiateUnitCards : MonoBehaviour
     public Button[] factionButtons;
     public UnitFaction[] unitFactions;
 
-    void Start()
-    {
-        //AddListeners();
-    }
-    
-    public void AddListeners()
-    {
-        for (int i = 0; i < factionButtons.Length; i++)
-        {
-            int factionIndex = i;
-            factionButtons[i].onClick.AddListener(() => CheckUnitFaction(unitFactions[factionIndex]));
-        }
-    }
-
     private void OnValidate()
     {
         System.Array.Resize(ref unitFactions, factionButtons.Length);

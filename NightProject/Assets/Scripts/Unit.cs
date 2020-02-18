@@ -89,6 +89,11 @@ public class Unit : MonoBehaviour, ISelectUnit
         set { id = value; }
     }
 
+    public void DestroyParentObject()
+    {
+        Destroy(gameObject);
+    }
+
     public void SetCurrentHealth()
     {
         currentHealth = maxHealth;

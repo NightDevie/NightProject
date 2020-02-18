@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class EnemyTurnState : State
 {
-    public override void Update()
-    {
-        
-    }
+
 }

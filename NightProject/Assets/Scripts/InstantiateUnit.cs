@@ -6,6 +6,7 @@ public class InstantiateUnit : MonoBehaviour
     public UnitsInventory unitsInventory;
     public GameObject unitPrefab;
     private BattleSystem battleSystem;
+    private Selectable selectable;
 
     private void Awake()
     {
