@@ -330,9 +330,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.7877358, b: 0.7877358, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 1, g: 0.4292453, b: 0.4292453, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -389,7 +389,6 @@ MonoBehaviour:
   healthText: {fileID: 8197569011193383710}
   damageText: {fileID: 8197569010208770900}
   unitAmountText: {fileID: 8197569010444658517}
-  amount: 0
 --- !u!114 &1462783985525374063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,10 +403,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsInventory: {fileID: 11400000, guid: 01f55ad35c133bd4d970e3a8e317f837, type: 2}
   unitPrefab: {fileID: 3771195031261580936, guid: 29a93f61d7ba2c345a7f3a7e3d0679f0,
-    type: 3}
-  parentPrefab: {fileID: 8436926501399948139, guid: cf2c3aa70721f7447a3284b2a7ef258b,
-    type: 3}
-  parentObject: {fileID: 8436926501399948139, guid: cf2c3aa70721f7447a3284b2a7ef258b,
     type: 3}
 --- !u!1 &8197569011193383708
 GameObject:

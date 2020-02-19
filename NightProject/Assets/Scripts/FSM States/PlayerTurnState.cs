@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerTurnState : State
 {
+    public override void OnStateEnter()
+    {
+        Debug.Log("Entered PlayerTurn State");
+    }
     public override void Update()
     {
         SelectInput();
