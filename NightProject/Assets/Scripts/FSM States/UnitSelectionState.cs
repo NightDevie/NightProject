@@ -3,9 +3,12 @@ using UnityEngine.UI;
 
 public class UnitSelectionState : State
 {
+    private Unit Unit => battleSystem.alliedUnitPlatforms.GetComponentInChildren<Unit>();
+
     public override void OnStateEnter()
     {
         Debug.Log("Entered UnitSelection State");
+
         battleSystem.startFight.GetComponent<Button>().onClick.AddListener(() => battleSystem.SwitchState(new PlayerTurnState()));
         battleSystem.startFight.GetComponent<Button>().onClick.AddListener(() => DisablePlatformSprites());
     }
@@ -25,6 +28,7 @@ public class UnitSelectionState : State
     {
         if (Input.GetMouseButtonDown(0))
         {
+            
             Camera mainCamera = battleSystem.mainCamera;
             Vector2 worldPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D raycastHit2D = Physics2D.Raycast(worldPoint, Vector2.zero);
@@ -42,23 +46,20 @@ public class UnitSelectionState : State
     {
         ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
 
-        if (selectable != null)
+        if (selectable != null && selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.alliedUnitPlatforms)
         {
-            if (selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.alliedUnitPlatforms)
+            for (int i = 0; i < battleSystem.alliedUnitPlatforms.GetComponentsInChildren<Unit>().Length; i++)
             {
-                for (int i = 0; i < battleSystem.alliedUnitPlatforms.GetComponentsInChildren<Unit>().Length; i++)
+                if (battleSystem.unitCards.transform.GetChild(i).GetComponent<Unit>().Name == selectable.GetSelectedUnit.GetComponent<Unit>().Name)
                 {
-                    if (battleSystem.unitCards.transform.GetChild(i).GetComponent<Unit>().Name == selectable.GetSelectedUnit.GetComponent<Unit>().Name)
-                    {
-                        Unit unit = battleSystem.unitCards.transform.GetChild(i).GetComponent<Unit>();
-                        unit.Amount++;
+                    Unit unit = battleSystem.unitCards.transform.GetChild(i).GetComponent<Unit>();
+                    unit.Amount++;
 
-                        selectable.GetSelectedUnit.GetComponent<Unit>().DestroyParentObject();
+                    selectable.GetSelectedUnit.GetComponent<Unit>().DestroyParentObject();
 
-                        battleSystem.unitCards.transform.GetChild(i).GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
-                        Debug.Log("Removed " + unit.Name);
-                        break;
-                    }
+                    battleSystem.unitCards.transform.GetChild(i).GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
+                    Debug.Log("Removed " + unit.Name);
+                    break;
                 }
             }
         }
@@ -66,11 +67,11 @@ public class UnitSelectionState : State
 
     private void FightButtonSetActive()
     {
-        if (battleSystem.alliedUnitPlatforms.GetComponentInChildren<Unit>())
+        if (Unit == true)
         {
             battleSystem.startFight.SetActive(true);
         }
-        else
+        else if (battleSystem.startFight.activeSelf)
         {
             battleSystem.startFight.SetActive(false);
         }
