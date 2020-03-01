@@ -27,8 +27,7 @@ public class UnitSelectionState : State
     private void SelectInput()
     {
         if (Input.GetMouseButtonDown(0))
-        {
-            
+        {            
             Camera mainCamera = battleSystem.mainCamera;
             Vector2 worldPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D raycastHit2D = Physics2D.Raycast(worldPoint, Vector2.zero);
@@ -59,7 +58,7 @@ public class UnitSelectionState : State
 
                     battleSystem.unitCards.transform.GetChild(i).GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
                     Debug.Log("Removed " + unit.Name);
-                    break;
+                break;
                 }
             }
         }

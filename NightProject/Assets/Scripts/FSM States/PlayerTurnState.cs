@@ -10,9 +10,7 @@ public class PlayerTurnState : State
     {
         Debug.Log("Entered PlayerTurn State");
 
-
-        battleSystem.selectedUnit = battleSystem.alliedUnitPlatforms.GetComponentInChildren<Unit>().gameObject;
-        Debug.Log("Selected child " + battleSystem.selectedUnit.name);
+        SetFirstUnitOutline();
     }
 
     public override void Update()
@@ -39,6 +37,34 @@ public class PlayerTurnState : State
         }
     }
 
+    private void SetUnitOutline(GameObject selectedUnit, bool isActive)
+    {
+        if (isActive)
+        {
+            selectedUnit.GetComponentInChildren<Outline>().active = true;
+        }
+        else
+        {
+            selectedUnit.GetComponentInChildren<Outline>().active = false;
+        }
+    }
+
+    private void SetFirstUnitOutline()
+    {
+        int childCount = battleSystem.alliedUnitPlatforms.transform.childCount;
+        for (int i = 0; i < childCount; i++)
+        {
+            if (battleSystem.alliedUnitPlatforms.transform.GetChild(i).GetComponentInChildren<Unit>())
+            {
+                battleSystem.selectedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).gameObject;
+                SetUnitOutline(battleSystem.selectedUnit, true);
+
+                Debug.Log("Selected child " + battleSystem.selectedUnit.name);
+            break;
+            }
+        }
+    }
+
     public override void SelectUnit(RaycastHit2D raycastHit2D)
     {
         ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
@@ -47,7 +73,9 @@ public class PlayerTurnState : State
         {
             if(selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.alliedUnitPlatforms)
             {
+                SetUnitOutline(battleSystem.selectedUnit, false);
                 battleSystem.selectedUnit = selectable.GetSelectedUnit;
+                SetUnitOutline(battleSystem.selectedUnit, true);
                 Debug.Log("Selected Unit " + battleSystem.selectedUnit.GetComponent<Unit>().UnitData.Name);
             }
         }
