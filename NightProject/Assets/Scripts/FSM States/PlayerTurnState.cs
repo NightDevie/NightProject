@@ -10,7 +10,8 @@ public class PlayerTurnState : State
     {
         Debug.Log("Entered PlayerTurn State");
 
-        SetFirstUnitOutline();
+        SelectFirstUnit();
+        SetUnitOutline(battleSystem.selectedUnit, true);
     }
 
     public override void Update()
@@ -49,7 +50,7 @@ public class PlayerTurnState : State
         }
     }
 
-    private void SetFirstUnitOutline()
+    private void SelectFirstUnit()
     {
         int childCount = battleSystem.alliedUnitPlatforms.transform.childCount;
         for (int i = 0; i < childCount; i++)
@@ -57,7 +58,6 @@ public class PlayerTurnState : State
             if (battleSystem.alliedUnitPlatforms.transform.GetChild(i).GetComponentInChildren<Unit>())
             {
                 battleSystem.selectedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).gameObject;
-                SetUnitOutline(battleSystem.selectedUnit, true);
 
                 Debug.Log("Selected child " + battleSystem.selectedUnit.name);
             break;
