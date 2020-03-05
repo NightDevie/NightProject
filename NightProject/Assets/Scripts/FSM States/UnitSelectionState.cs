@@ -41,6 +41,17 @@ public class UnitSelectionState : State
         }
     }
 
+    private void SelectUnitParent(RaycastHit2D raycastHit2D)
+    {
+        ISelectUnitParent selectable = raycastHit2D.collider.GetComponent<ISelectUnitParent>();
+
+        if (selectable != null)
+        {
+            battleSystem.selectedParent = selectable.GetSelectedUnitParent;
+            Debug.Log("Selected Parent = " + battleSystem.selectedParent.name);
+        }
+    }
+
     private void RemoveUnit(RaycastHit2D raycastHit2D)
     {
         ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
@@ -55,8 +66,9 @@ public class UnitSelectionState : State
                     unit.Amount++;
 
                     selectable.GetSelectedUnit.GetComponent<Unit>().DestroyParentObject();
-
+#if UNITY_EDITOR
                     battleSystem.unitCards.transform.GetChild(i).GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
+#endif
                     Debug.Log("Removed " + unit.Name);
                 break;
                 }

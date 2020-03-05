@@ -38,8 +38,9 @@ public class InstantiateUnit : MonoBehaviour
             unit.Amount = cardUnit.Amount;
             
             instantiatedUnitPrefab.name = "[" + index + "]" + unit.UnitData.Name;
-
+#if UNITY_EDITOR
             instantiatedUnitPrefab.GetComponent<UnitUI>().EditorUnitUIUpdate();
+#endif
             cardUnit.GetComponent<UnitCardUI>().unitAmountText.text = cardUnit.Amount.ToString();
 
             Debug.Log("Instantiated " + unit.UnitData.Name);

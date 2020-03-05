@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerTurnState : State
 {
-    private Unit Unit => battleSystem.alliedUnitPlatforms.GetComponentInChildren<Unit>();
+    private GameObject selectedEnemyUnit;
+    private Camera mainCamera;
 
     public override void OnStateEnter()
     {
         Debug.Log("Entered PlayerTurn State");
 
         SelectFirstUnit();
-        SetUnitOutline(battleSystem.selectedUnit, true);
+        SetUnitOutline(battleSystem.selectedAlliedUnit, true);
+
+        mainCamera = battleSystem.mainCamera;
     }
 
     public override void Update()
@@ -21,32 +22,33 @@ public class PlayerTurnState : State
 
     private void SelectInput()
     {
-        if (Input.GetMouseButtonDown(0))
+        Vector2 worldPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D raycastHit2D = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+        if (raycastHit2D.collider != null && raycastHit2D.collider.GetComponent<ISelectUnit>() != null)
         {
-            if (Unit == true)
+            ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
+            MouseOverEnemy(selectable);
+
+            if (Input.GetMouseButtonDown(0))
             {
-                Camera mainCamera = battleSystem.mainCamera;
-                Vector2 worldPoint = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-                RaycastHit2D raycastHit2D = Physics2D.Raycast(worldPoint, Vector2.zero);
-                
-                if (raycastHit2D.collider != null)
-                {
-                    Debug.Log("Has Collider");
-                    SelectUnit(raycastHit2D);
-                } 
+                // if ally select, if enemy attack
+                SelectUnit(selectable);
             }
         }
     }
 
-    private void SetUnitOutline(GameObject selectedUnit, bool isActive)
+    private void SetUnitOutline(GameObject selectedUnit, bool activate)
     {
-        if (isActive)
+        if (activate)
         {
             selectedUnit.GetComponentInChildren<Outline>().active = true;
+            selectedUnit.GetComponentInChildren<Outline>().flag = true;
         }
         else
         {
             selectedUnit.GetComponentInChildren<Outline>().active = false;
+            selectedUnit.GetComponentInChildren<Outline>().flag = true;
         }
     }
 
@@ -57,26 +59,44 @@ public class PlayerTurnState : State
         {
             if (battleSystem.alliedUnitPlatforms.transform.GetChild(i).GetComponentInChildren<Unit>())
             {
-                battleSystem.selectedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).gameObject;
+                battleSystem.selectedAlliedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).gameObject;
 
-                Debug.Log("Selected child " + battleSystem.selectedUnit.name);
+                Debug.Log("Selected Child " + battleSystem.selectedAlliedUnit.name);
             break;
             }
         }
     }
 
-    public override void SelectUnit(RaycastHit2D raycastHit2D)
+    private void SelectUnit(ISelectUnit selectable)
     {
-        ISelectUnit selectable = raycastHit2D.collider.GetComponent<ISelectUnit>();
-
-        if (selectable != null)
+        if (selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.alliedUnitPlatforms)
         {
-            if(selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.alliedUnitPlatforms)
+            SetUnitOutline(battleSystem.selectedAlliedUnit, false);
+            battleSystem.selectedAlliedUnit = selectable.GetSelectedUnit;
+            SetUnitOutline(battleSystem.selectedAlliedUnit, true);
+            Debug.Log("Selected Unit " + battleSystem.selectedAlliedUnit.GetComponent<Unit>().UnitData.Name);
+        }
+    }
+
+    private void MouseOverEnemy(ISelectUnit selectable)
+    {
+        if (selectable.GetSelectedUnit.transform.parent.parent.gameObject == battleSystem.enemyUnitPlatforms)
+        {
+            if (selectedEnemyUnit != null)
             {
-                SetUnitOutline(battleSystem.selectedUnit, false);
-                battleSystem.selectedUnit = selectable.GetSelectedUnit;
-                SetUnitOutline(battleSystem.selectedUnit, true);
-                Debug.Log("Selected Unit " + battleSystem.selectedUnit.GetComponent<Unit>().UnitData.Name);
+                if (selectable.GetSelectedUnit != selectedEnemyUnit)
+                {
+                    SetUnitOutline(selectedEnemyUnit, false);
+                    selectedEnemyUnit = selectable.GetSelectedUnit;
+                    SetUnitOutline(selectedEnemyUnit, true);
+
+                    Debug.Log("Mouse Over " + selectedEnemyUnit.GetComponent<Unit>().UnitData.Name);
+                }
+            }
+            else
+            {
+                selectedEnemyUnit = selectable.GetSelectedUnit;
+                SetUnitOutline(selectedEnemyUnit, true);
             }
         }
     }

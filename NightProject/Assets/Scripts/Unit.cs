@@ -89,6 +89,11 @@ public class Unit : MonoBehaviour, ISelectUnit
         set { id = value; }
     }
 
+    public void TakeDamage(int damage)
+    {
+        CurrentHealth -= damage;
+    }
+
     public void DestroyParentObject()
     {
         Destroy(gameObject);

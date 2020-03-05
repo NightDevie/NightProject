@@ -19,12 +19,14 @@ public class Outline : MonoBehaviour
 	Texture2D originalTexture;
 
 	public bool active;
+	public bool flag = true;
 
 	float savedPixelsPerUnit = 32;
 	bool textureExists = false;
 
 	int currentWidth = 16;
 	int currentHeight = 16;
+	
 
 	void Awake()
 	{
@@ -33,15 +35,17 @@ public class Outline : MonoBehaviour
 
 	void Update()
 	{
-		if (active && rendererToOutline && rendererToOutline.sprite)
+		if (flag && active && rendererToOutline && rendererToOutline.sprite)
 		{
 			originalTexture = GetTextureFromSprite(rendererToOutline.sprite, rendererToOutline.sprite.texture);
 			textureExists = true;
+			flag = false;
 		}
-		else
+		else if (flag)
 		{
 			textureExists = false;
 			ClearOutline();
+			flag = false;
 		}
 
 		if(textureExists) GenerateOutline();
