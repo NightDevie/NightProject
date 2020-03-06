@@ -65,7 +65,7 @@ public class UnitSelectionState : State
                     Unit unit = battleSystem.unitCards.transform.GetChild(i).GetComponent<Unit>();
                     unit.Amount++;
 
-                    selectable.GetSelectedUnit.GetComponent<Unit>().DestroyParentObject();
+                    selectable.GetSelectedUnit.GetComponent<Unit>().DestroyGameObject();
 #if UNITY_EDITOR
                     battleSystem.unitCards.transform.GetChild(i).GetComponent<UnitCardUI>().EditorUnitCardUIUpdate();
 #endif

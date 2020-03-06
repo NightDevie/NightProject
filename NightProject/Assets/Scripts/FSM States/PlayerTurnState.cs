@@ -38,6 +38,11 @@ public class PlayerTurnState : State
         }
     }
 
+    private void CreateButton()
+    {
+
+    }
+
     private void SetUnitOutline(GameObject selectedUnit, bool activate)
     {
         if (activate)
@@ -59,7 +64,7 @@ public class PlayerTurnState : State
         {
             if (battleSystem.alliedUnitPlatforms.transform.GetChild(i).GetComponentInChildren<Unit>())
             {
-                battleSystem.selectedAlliedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).gameObject;
+                battleSystem.selectedAlliedUnit = battleSystem.alliedUnitPlatforms.transform.GetChild(i).GetChild(0).gameObject;
 
                 Debug.Log("Selected Child " + battleSystem.selectedAlliedUnit.name);
             break;
@@ -84,13 +89,19 @@ public class PlayerTurnState : State
         {
             if (selectedEnemyUnit != null)
             {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Attack(battleSystem.selectedAlliedUnit.GetComponent<Unit>(), selectedEnemyUnit.GetComponent<Unit>());
+                }
+
                 if (selectable.GetSelectedUnit != selectedEnemyUnit)
                 {
                     SetUnitOutline(selectedEnemyUnit, false);
                     selectedEnemyUnit = selectable.GetSelectedUnit;
                     SetUnitOutline(selectedEnemyUnit, true);
 
-                    Debug.Log("Mouse Over " + selectedEnemyUnit.GetComponent<Unit>().UnitData.Name);
+                    Debug.Log("Mouse Over " + selectedEnemyUnit.GetComponent<Unit>().Name);
+
                 }
             }
             else
@@ -99,5 +110,14 @@ public class PlayerTurnState : State
                 SetUnitOutline(selectedEnemyUnit, true);
             }
         }
+    }
+
+    private void Attack(Unit attacker, Unit defender)
+    {
+        Debug.Log("Defender " + defender.Name + " CurrentHealth: " + defender.CurrentHealth);
+        defender.TakeDamage(attacker.Damage);
+        defender.gameObject.GetComponent<UnitUI>().EditorUnitUIUpdate();
+        Debug.Log(attacker.Name + " dealt " + attacker.Damage.ToString() + " to " + defender.Name);
+        Debug.Log("Defender " + defender.Name + " CurrentHealth: " + defender.CurrentHealth);
     }
 }
