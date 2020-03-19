@@ -32,15 +32,9 @@ public class PlayerTurnState : State
 
             if (Input.GetMouseButtonDown(0))
             {
-                // if ally select, if enemy attack
                 SelectUnit(selectable);
             }
         }
-    }
-
-    private void CreateButton()
-    {
-
     }
 
     private void SetUnitOutline(GameObject selectedUnit, bool activate)
@@ -91,7 +85,7 @@ public class PlayerTurnState : State
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    Attack(battleSystem.selectedAlliedUnit.GetComponent<Unit>(), selectedEnemyUnit.GetComponent<Unit>());
+                    battleSystem.Attack(battleSystem.selectedAlliedUnit.GetComponent<Unit>(), selectedEnemyUnit.GetComponent<Unit>());
                 }
 
                 if (selectable.GetSelectedUnit != selectedEnemyUnit)
@@ -110,14 +104,5 @@ public class PlayerTurnState : State
                 SetUnitOutline(selectedEnemyUnit, true);
             }
         }
-    }
-
-    private void Attack(Unit attacker, Unit defender)
-    {
-        Debug.Log("Defender " + defender.Name + " CurrentHealth: " + defender.CurrentHealth);
-        defender.TakeDamage(attacker.Damage);
-        defender.gameObject.GetComponent<UnitUI>().EditorUnitUIUpdate();
-        Debug.Log(attacker.Name + " dealt " + attacker.Damage.ToString() + " to " + defender.Name);
-        Debug.Log("Defender " + defender.Name + " CurrentHealth: " + defender.CurrentHealth);
     }
 }

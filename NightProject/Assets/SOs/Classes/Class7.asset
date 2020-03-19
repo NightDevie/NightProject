@@ -13,3 +13,15 @@ MonoBehaviour:
   m_Name: Class7
   m_EditorClassIdentifier: 
   className: Class7
+  StrongAgainstClasses:
+  - {fileID: 11400000, guid: a11788f6bb6f4f8479bf19a2be63751d, type: 2}
+  - {fileID: 11400000, guid: c86e78a53574bd442b76f89a22505434, type: 2}
+  - {fileID: 11400000, guid: 5aafd578ab6c7d944954f1757b7587be, type: 2}
+  WeakAgainstClasses:
+  - {fileID: 11400000, guid: 2c3fb29ea5dc28e4c8849c14bba01fec, type: 2}
+  - {fileID: 11400000, guid: 7d986873371c30c4e8c0556ff80a0f7e, type: 2}
+  - {fileID: 11400000, guid: 4e1e30533b5bfaf458d9070674efd8e7, type: 2}
+  NeutralAgainstClasses:
+  - {fileID: 11400000, guid: 7e43a94283594c448ba085f81aefc8cb, type: 2}
+  - {fileID: 11400000, guid: 08407b85df0b82f48822897f0bc7dde2, type: 2}
+  - {fileID: 11400000}
